@@ -1,0 +1,20 @@
+D:\Проекты\БГТУ\C#\WINFORMS\Калькулятор\bin\Debug\Калькулятор.exe.config
+D:\Проекты\БГТУ\C#\WINFORMS\Калькулятор\bin\Debug\Калькулятор.exe
+D:\Проекты\БГТУ\C#\WINFORMS\Калькулятор\bin\Debug\Калькулятор.pdb
+D:\Проекты\БГТУ\C#\WINFORMS\Калькулятор\obj\Debug\Калькулятор.csproj.AssemblyReference.cache
+D:\Проекты\БГТУ\C#\WINFORMS\Калькулятор\obj\Debug\Калькулятор.Form1.resources
+D:\Проекты\БГТУ\C#\WINFORMS\Калькулятор\obj\Debug\Калькулятор.Properties.Resources.resources
+D:\Проекты\БГТУ\C#\WINFORMS\Калькулятор\obj\Debug\Калькулятор.csproj.GenerateResource.cache
+D:\Проекты\БГТУ\C#\WINFORMS\Калькулятор\obj\Debug\Калькулятор.csproj.CoreCompileInputs.cache
+D:\Проекты\БГТУ\C#\WINFORMS\Калькулятор\obj\Debug\Калькулятор.exe
+D:\Проекты\БГТУ\C#\WINFORMS\Калькулятор\obj\Debug\Калькулятор.pdb
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_1\bin\Debug\Калькулятор.exe.config
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_1\bin\Debug\Калькулятор.exe
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_1\bin\Debug\Калькулятор.pdb
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_1\obj\Debug\Калькулятор.csproj.AssemblyReference.cache
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_1\obj\Debug\Калькулятор.Properties.Resources.resources
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_1\obj\Debug\Калькулятор.csproj.GenerateResource.cache
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_1\obj\Debug\Калькулятор.csproj.CoreCompileInputs.cache
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_1\obj\Debug\Калькулятор.exe
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_1\obj\Debug\Калькулятор.pdb
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_1\obj\Debug\Калькулятор.Form1.resources
