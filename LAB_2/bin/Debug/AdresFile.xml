@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ArrayOfAdres xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Adres>
+    <City>Minsk</City>
+    <Index>2342343</Index>
+    <Street>Самарская</Street>
+    <House>420</House>
+    <Flat>69</Flat>
+  </Adres>
+</ArrayOfAdres>

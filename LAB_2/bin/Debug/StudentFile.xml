@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <SecondName>Сухач</SecondName>
+    <FirstName>Валерий</FirstName>
+    <ThirdName>Альбертович</ThirdName>
+    <Age>54</Age>
+    <Specialinost>ПОИТ</Specialinost>
+    <BirtDate>01.03.2000</BirtDate>
+    <Curs>3</Curs>
+    <Group>3</Group>
+    <Ocenka>10</Ocenka>
+    <Sex>Мужской</Sex>
+  </Student>
+</ArrayOfStudent>
