@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfEnrollee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Enrollee>
+    <EnSecondName>Test1</EnSecondName>
+    <EnFirstName>Test1</EnFirstName>
+    <EnThirdName>Test1</EnThirdName>
+    <EnAge>17</EnAge>
+    <EnBirthDate>1 марта 2005 г.</EnBirthDate>
+    <EnSex>Мужской</EnSex>
+  </Enrollee>
+  <Enrollee>
+    <EnSecondName>Белицкий</EnSecondName>
+    <EnFirstName>Владислав</EnFirstName>
+    <EnThirdName>Дмитриевич</EnThirdName>
+    <EnAge>20</EnAge>
+    <EnBirthDate>3 сентября 2001 г.</EnBirthDate>
+    <EnSex>Мужской</EnSex>
+  </Enrollee>
+</ArrayOfEnrollee>
