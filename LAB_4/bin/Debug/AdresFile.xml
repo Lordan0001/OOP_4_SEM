@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<ArrayOfAdres xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Adres>
+    <City>йцйц</City>
+    <Index>йцйц</Index>
+    <Street />
+    <House />
+    <Flat />
+  </Adres>
+  <Adres>
+    <City>йцйц</City>
+    <Index>йцйц</Index>
+    <Street />
+    <House />
+    <Flat />
+  </Adres>
+  <Adres>
+    <City>йцйц</City>
+    <Index>йцйц</Index>
+    <Street />
+    <House />
+    <Flat />
+  </Adres>
+  <Adres>
+    <City>йцйцй</City>
+    <Index />
+    <Street />
+    <House />
+    <Flat />
+  </Adres>
+  <Adres>
+    <City>wqwweq</City>
+    <Index />
+    <Street />
+    <House />
+    <Flat />
+  </Adres>
+  <Adres>
+    <City>vxvvx</City>
+    <Index />
+    <Street />
+    <House />
+    <Flat />
+  </Adres>
+</ArrayOfAdres>

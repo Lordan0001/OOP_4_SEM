@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <SecondName>Король</SecondName>
+    <FirstName>Анна</FirstName>
+    <ThirdName>Сергеевна</ThirdName>
+    <Age>20</Age>
+    <Specialinost>ИСИТ</Specialinost>
+    <BirthDate>1 декабря 2021 г.</BirthDate>
+    <Curs>1</Curs>
+    <Group>4</Group>
+    <Ocenka>9</Ocenka>
+    <Sex>Женский</Sex>
+  </Student>
+  <Student>
+    <SecondName>Васильев</SecondName>
+    <FirstName>Василей</FirstName>
+    <ThirdName>Васильевич</ThirdName>
+    <Age>21</Age>
+    <Specialinost>ПОИТ</Specialinost>
+    <BirthDate>2 марта 2022 г.</BirthDate>
+    <Curs>3</Curs>
+    <Group>6</Group>
+    <Ocenka>7</Ocenka>
+    <Sex>Мужской</Sex>
+  </Student>
+  <Student>
+    <SecondName>Петров</SecondName>
+    <FirstName>Петр</FirstName>
+    <ThirdName>Петрович</ThirdName>
+    <Age>31</Age>
+    <Specialinost>ДЭВИ</Specialinost>
+    <BirthDate>27 марта 2022 г.</BirthDate>
+    <Curs>3</Curs>
+    <Group>2</Group>
+    <Ocenka>3</Ocenka>
+    <Sex>Мужской</Sex>
+  </Student>
+  <Student>
+    <SecondName>Test</SecondName>
+    <FirstName>Test</FirstName>
+    <ThirdName>Test</ThirdName>
+    <Age>31</Age>
+    <Specialinost>ИСИТ</Specialinost>
+    <BirthDate>30 декабря 2021 г.</BirthDate>
+    <Curs>2</Curs>
+    <Group>3</Group>
+    <Ocenka>9</Ocenka>
+    <Sex>Мужской</Sex>
+  </Student>
+</ArrayOfStudent>
