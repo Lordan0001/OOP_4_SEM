@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<ArrayOfAlbum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Album>
+    <SongName>Red Black and Blue</SongName>
+    <SongDuration>5:03</SongDuration>
+    <FromAlbum>We Are Chaos</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>We Are Chaos</SongName>
+    <SongDuration>4:00</SongDuration>
+    <FromAlbum>We Are Chaos</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Don't Chase the Dead</SongName>
+    <SongDuration>4:17</SongDuration>
+    <FromAlbum>We Are Chaos</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Paint You with My Love</SongName>
+    <SongDuration>4:29</SongDuration>
+    <FromAlbum>We Are Chaos</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Half-Way, One Step Forward</SongName>
+    <SongDuration>3:16</SongDuration>
+    <FromAlbum>We Are Chaos</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Infinite Darkness</SongName>
+    <SongDuration>4:15</SongDuration>
+    <FromAlbum>We Are Chaos</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Perfume</SongName>
+    <SongDuration>3:33</SongDuration>
+    <FromAlbum>We Are Chaos</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Keep My Head Together</SongName>
+    <SongDuration>3:49</SongDuration>
+    <FromAlbum>We Are Chaos</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Solve Coagula</SongName>
+    <SongDuration>4:22</SongDuration>
+    <FromAlbum>We Are Chaos</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Broken Needle</SongName>
+    <SongDuration>5:23</SongDuration>
+    <FromAlbum>We Are Chaos</FromAlbum>
+  </Album>
+</ArrayOfAlbum>

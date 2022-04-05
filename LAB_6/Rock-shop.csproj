@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Rock_shop</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\Born_Villain_Cover_Art.jpg" />
+    <None Remove="Resource\Eat_Me,_Drink_Me_(2007).jpg" />
+    <None Remove="Resource\Heaven_Upside_Down.png" />
+    <None Remove="Resource\The_High_End_of_Low.jpg" />
+    <None Remove="Resource\The_Pale_Emperor.jpeg" />
+    <None Remove="Resource\We_are_chaos.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\The_Pale_Emperor.jpeg" />
+    <Resource Include="Resource\Born_Villain_Cover_Art.jpg">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resource\Eat_Me,_Drink_Me_%282007%29.jpg" />
+    <Resource Include="Resource\Heaven_Upside_Down.png" />
+    <Resource Include="Resource\The_High_End_of_Low.jpg" />
+    <Resource Include="Resource\We_are_chaos.jpeg" />
+  </ItemGroup>
+
+</Project>
