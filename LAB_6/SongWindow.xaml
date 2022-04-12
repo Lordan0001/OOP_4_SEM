@@ -12,7 +12,7 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <DataGrid x:Name="SondGridView" Grid.Row="1"/>
-        <TextBlock Text="We are Chaos Songs:" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White"/>
+        <TextBlock x:Name="SongTitle" Text="We are Chaos Songs:" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White"/>
 
     </Grid>
 </Window>

@@ -1,0 +1,90 @@
+            /*     Album album1 = new Album("Red Black and Blue", "5:03", "We Are Chaos");
+                 Album album2 = new Album("We Are Chaos", "4:00", "We Are Chaos");
+                 Album album3 = new Album("Don't Chase the Dead", "4:17", "We Are Chaos");
+
+                 Album album4 = new Album("Paint You with My Love", "4:29", "We Are Chaos");
+                 Album album5 = new Album("Half-Way, One Step Forward", "3:16", "We Are Chaos");
+                 Album album6 = new Album("Infinite Darkness", "4:15", "We Are Chaos");
+                 Album album7 = new Album("Perfume", "3:33", "We Are Chaos");
+                 Album album8 = new Album("Keep My Head Together", "3:49", "We Are Chaos");
+                 Album album9 = new Album("Solve Coagula", "4:22", "We Are Chaos");
+                 Album album10 = new Album("Broken Needle", "5:23", "We Are Chaos");*/
+
+            /*            Album album1 = new Album("Revelation #12", "4:42", "Heaven Upside Down");
+                        Album album2 = new Album("Tattooed in Reverse", "4:24", "Heaven Upside Down");
+                        Album album3 = new Album("Threats of Romance", "47:29", "Heaven Upside Down");
+                        Album album4 = new Album("We Know Where You Fucking Live", "4:32", "Heaven Upside Down");
+                        Album album5 = new Album("Say10", "4:18", "Heaven Upside Down");
+                        Album album6 = new Album("Kill4Me", "3:59", "Heaven Upside Down");
+                        Album album7 = new Album("Saturnalia", "7:59", "Heaven Upside Down");
+                        Album album8 = new Album("Jesus Crisis", "3:59", "Heaven Upside Down");
+                        Album album9 = new Album("Blood Honey", "4:49", "Heaven Upside Down");
+                        Album album10 = new Album("Heaven Upside Down", "5:23", "Heaven Upside Down");*/
+
+            /*            Album album1 = new Album("Killing Strangers", "5:36", "The Pale Emperor");
+                        Album album2 = new Album("Deep Six", "5:02", "The Pale Emperor");
+                        Album album3 = new Album("Third Day of a Seven Day Binge", "4:26", "The Pale Emperor");
+                        Album album4 = new Album("The Mephistopheles of Los Angeles", "4:57", "The Pale Emperor");
+                        Album album5 = new Album("Warship My Wreck", "5:57", "The Pale Emperor");
+                        Album album6 = new Album("Slave Only Dreams to be King", "5:20", "The Pale Emperor");
+                        Album album7 = new Album("The Devil Beneath My Feet", "4:16", "The Pale Emperor");
+                        Album album8 = new Album("Birds of Hell Awaiting", "5:05", "The Pale Emperor");
+                        Album album9 = new Album("Cupid Carries a Gun", "4:59", "The Pale Emperor");
+                        Album album10 = new Album("Odds of Even", "52:00", "The Pale Emperor");*/
+
+            /*            Album album1 = new Album("Hey, Cruel World…", "3:44", "Born Villain");
+                        Album album2 = new Album("No Reflection", "4:36", "Born Villain");
+                        Album album3 = new Album("Pistol Whipped", "4:10", "Born Villain");
+                        Album album4 = new Album("Overneath the Path of Misery", "5:18", "Born Villain");
+                        Album album5 = new Album("Slo-Mo-Tion", "4:24", "Born Villain");
+                        Album album6 = new Album("The Gardener", "4:39", "Born Villain");
+                        Album album7 = new Album("The Flowers of Evil", "5:19", "Born Villain");
+                        Album album8 = new Album("Disengaged", "3:25", "Born Villain");
+                        Album album9 = new Album("Lay Down Your Goddamn Arms", "4:13", "Born Villain");
+                        Album album10 = new Album("Children of Cain", "5:17", "Born Villain");
+                        Album album11 = new Album("Murderers Are Getting Prettier Every Day", "4:18", "Born Villain");
+                        Album album12 = new Album("Born Villain", "5:26", "Born Villain");
+                        Album album13 = new Album("Breaking the Same Old Ground", "59:17", "Born Villain");*/
+
+            /*            Album album1 = new Album("Devour", "3:46", "The High End of Low");
+                        Album album2 = new Album("Pretty as a Swastika", "2:45", "The High End of Low");
+                        Album album3 = new Album("Leave a Scar", "3:55", "The High End of Low");
+                        Album album4 = new Album("Four Rusted Horses", "5:00", "The High End of Low");
+                        Album album5 = new Album("Arma-Goddamn-Motherfuckin-Geddon", "3:39", "The High End of Low");
+                        Album album6 = new Album("Blank and White", "4:27", "The High End of Low");
+                        Album album7 = new Album("Running to the Edge of the World", "6:26", "The High End of Low");
+                        Album album8 = new Album("I Want to Kill You Like They Do in the Movies", "9:02", "The High End of Low");
+                        Album album9 = new Album("WOW", "4:55", "The High End of Low");
+                        Album album10 = new Album("Wight Spider", "5:33", "The High End of Low");
+                        Album album11 = new Album("Unkillable Monster", "3:44", "The High End of Low");
+                        Album album12 = new Album("We're from America", "5:04", "The High End of Low");
+                        Album album13 = new Album("I Have to Look Up Just to See Hell", "4:12", "The High End of Low");
+                        Album album14 = new Album("Into the Fire", "5:15", "The High End of Low");
+                        Album album15 = new Album("15", "4:21", "The High End of Low");*/
+
+
+           /* Album album1 = new Album("If I Was Your Vampire", "5:56", "Eat Me, Drink Me");
+            Album album2 = new Album("Putting Holes in Happiness", "4:31", "Eat Me, Drink Me");
+            Album album3 = new Album("The Red Carpet Grave", "4:05", "Eat Me, Drink Me");
+            Album album4 = new Album("They Said That Hell's Not Hot", "4:17", "Eat Me, Drink Me");
+            Album album5 = new Album("Just a Car Crash Away", "4:55", "Eat Me, Drink Me");
+            Album album6 = new Album("Heart-Shaped Glasses", "5:05", "Eat Me, Drink Me");
+            Album album7 = new Album("Evidence", "5:19", "Eat Me, Drink Me");
+            Album album8 = new Album("Are You the Rabbit?", "4:14", "Eat Me, Drink Me");
+            Album album9 = new Album("Mutilation Is the Most Sincere Form of Flattery", "3:52", "Eat Me, Drink Me");
+            Album album10 = new Album("You and Me and the Devil Makes 3", "4:24", "Eat Me, Drink Me");
+            Album album11 = new Album("Eat Me, Drink Me", "52:12", "Eat Me, Drink Me");*/
+  
+
+
+            /*p1.Add(album1);
+            p1.Add(album2);
+            p1.Add(album3);
+            p1.Add(album4);
+            p1.Add(album5);
+            p1.Add(album6);
+            p1.Add(album7);
+            p1.Add(album8);
+            p1.Add(album9);
+            p1.Add(album10);
+            p1.Add(album11);*/

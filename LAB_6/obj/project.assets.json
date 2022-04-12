@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Rock-shop\\Rock-shop.csproj",
+      "projectUniqueName": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\LAB_6\\Rock-shop.csproj",
       "projectName": "Rock-shop",
-      "projectPath": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Rock-shop\\Rock-shop.csproj",
+      "projectPath": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\LAB_6\\Rock-shop.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Rock-shop\\obj\\",
+      "outputPath": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\LAB_6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

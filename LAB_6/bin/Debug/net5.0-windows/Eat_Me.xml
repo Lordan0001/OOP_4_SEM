@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<ArrayOfAlbum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Album>
+    <SongName>If I Was Your Vampire</SongName>
+    <SongDuration>5:56</SongDuration>
+    <FromAlbum>Eat Me, Drink Me</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Putting Holes in Happiness</SongName>
+    <SongDuration>4:31</SongDuration>
+    <FromAlbum>Eat Me, Drink Me</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>The Red Carpet Grave</SongName>
+    <SongDuration>4:05</SongDuration>
+    <FromAlbum>Eat Me, Drink Me</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>They Said That Hell's Not Hot</SongName>
+    <SongDuration>4:17</SongDuration>
+    <FromAlbum>Eat Me, Drink Me</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Just a Car Crash Away</SongName>
+    <SongDuration>4:55</SongDuration>
+    <FromAlbum>Eat Me, Drink Me</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Heart-Shaped Glasses</SongName>
+    <SongDuration>5:05</SongDuration>
+    <FromAlbum>Eat Me, Drink Me</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Evidence</SongName>
+    <SongDuration>5:19</SongDuration>
+    <FromAlbum>Eat Me, Drink Me</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Are You the Rabbit?</SongName>
+    <SongDuration>4:14</SongDuration>
+    <FromAlbum>Eat Me, Drink Me</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Mutilation Is the Most Sincere Form of Flattery</SongName>
+    <SongDuration>3:52</SongDuration>
+    <FromAlbum>Eat Me, Drink Me</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>You and Me and the Devil Makes 3</SongName>
+    <SongDuration>4:24</SongDuration>
+    <FromAlbum>Eat Me, Drink Me</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Eat Me, Drink Me</SongName>
+    <SongDuration>52:12</SongDuration>
+    <FromAlbum>Eat Me, Drink Me</FromAlbum>
+  </Album>
+</ArrayOfAlbum>

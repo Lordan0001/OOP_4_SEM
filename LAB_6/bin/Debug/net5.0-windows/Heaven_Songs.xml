@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<ArrayOfAlbum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Album>
+    <SongName>Revelation #12</SongName>
+    <SongDuration>4:42</SongDuration>
+    <FromAlbum>Heaven Upside Down</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Tattooed in Reverse</SongName>
+    <SongDuration>4:24</SongDuration>
+    <FromAlbum>Heaven Upside Down</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Threats of Romance</SongName>
+    <SongDuration>47:29</SongDuration>
+    <FromAlbum>Heaven Upside Down</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>We Know Where You Fucking Live</SongName>
+    <SongDuration>4:32</SongDuration>
+    <FromAlbum>Heaven Upside Down</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Say10</SongName>
+    <SongDuration>4:18</SongDuration>
+    <FromAlbum>Heaven Upside Down</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Kill4Me</SongName>
+    <SongDuration>3:59</SongDuration>
+    <FromAlbum>Heaven Upside Down</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Saturnalia</SongName>
+    <SongDuration>7:59</SongDuration>
+    <FromAlbum>Heaven Upside Down</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Jesus Crisis</SongName>
+    <SongDuration>3:59</SongDuration>
+    <FromAlbum>Heaven Upside Down</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Blood Honey</SongName>
+    <SongDuration>4:49</SongDuration>
+    <FromAlbum>Heaven Upside Down</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Heaven Upside Down</SongName>
+    <SongDuration>5:23</SongDuration>
+    <FromAlbum>Heaven Upside Down</FromAlbum>
+  </Album>
+</ArrayOfAlbum>
