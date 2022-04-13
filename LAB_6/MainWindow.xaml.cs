@@ -23,6 +23,7 @@ namespace Rock_shop
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void TextBlock_PreviewMouseDown_1(object sender, MouseButtonEventArgs e)
@@ -30,19 +31,59 @@ namespace Rock_shop
             Window1 window1 = new Window1();
             window1.Show();
             window1.ShowWeAreSongs();
-            String albumStr = labelHeaven.Text;
-            string a = "11";
-            MessageBox.Show(albumStr);
-
-
-
         }
+
 
         private void TextBlock_PreviewMouseDown_2(object sender, MouseButtonEventArgs e)
         {
             Window1 window1 = new Window1();
             window1.Show();
             window1.ShowHeavenSongs();
+        }
+
+        private void TextBlock_PreviewMouseDown_3(object sender, MouseButtonEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            window1.ShowThePaleSongs();
+        }
+        private void TextBlock_PreviewMouseDown_4(object sender, MouseButtonEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            window1.ShowVilianSongs();
+        }
+        private void TextBlock_PreviewMouseDown_5(object sender, MouseButtonEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            window1.ShowTheHighEndSongs();
+        }
+        private void TextBlock_PreviewMouseDown_6(object sender, MouseButtonEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            window1.ShowEatMeSongs();
+        }
+
+
+
+        private void TextBlock_Bracelet(object sender, MouseButtonEventArgs e)
+        {
+            BraceletWindow braceletWindow = new BraceletWindow();
+            braceletWindow.Show();
+        }
+
+        private void TextBlock_Ring(object sender, MouseButtonEventArgs e)
+        {
+            RingsWindow ringsWindow = new RingsWindow();
+            ringsWindow.Show();
+        }
+
+        private void TextBlock_Poster(object sender, MouseButtonEventArgs e)
+        {
+            PostersWindow postersWindow = new PostersWindow();
+            postersWindow.Show();
         }
     }
 }

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_6\App.xaml
-21804165281
+5-1898347979
 
-7-56031942
+14-697082761
 193-1891726104
-MainWindow.xaml;SongWindow.xaml;
+BraceletWindow.xaml;MainWindow.xaml;PostersWindow.xaml;RingsWindow.xaml;SongWindow.xaml;
 
-False
+True
 

@@ -19,9 +19,9 @@ namespace Rock_shop
             //ShowThePaleSongs();
 
             // ShowVilianSongs();
-            //TheHighEndSongs();
+            //ShowTheHighEndSongs();
             //SaveSongs();
-           // EatMeSongs();
+            // ShowEatMeSongs();
         }
         public string GetName(string str)
         {
@@ -79,7 +79,7 @@ namespace Rock_shop
 
             SondGridView.ItemsSource = p1;
         }
-        public void TheHighEndSongs()
+        public void ShowTheHighEndSongs()
         {
             List<Album> p1 = new List<Album>();
             XmlSerializer serial = new XmlSerializer(typeof(List<Album>));
@@ -92,7 +92,7 @@ namespace Rock_shop
 
             SondGridView.ItemsSource = p1;
         }
-        public void EatMeSongs()
+        public void ShowEatMeSongs()
         {
             List<Album> p1 = new List<Album>();
             XmlSerializer serial = new XmlSerializer(typeof(List<Album>));
