@@ -85,5 +85,38 @@ namespace Rock_shop
             PostersWindow postersWindow = new PostersWindow();
             postersWindow.Show();
         }
+
+        private void TextBlock_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+            BraceleteBlock.TextDecorations = TextDecorations.Underline;
+          
+        }
+
+        private void BraceleteBlock_MouseLeave(object sender, MouseEventArgs e)
+        {
+            BraceleteBlock.TextDecorations = null;
+
+        }
+
+        private void TextBlock_MouseEnter_1(object sender, MouseEventArgs e)
+        {
+            RingBlock.TextDecorations = TextDecorations.Underline;
+        }
+
+        private void TextBlock_MouseLeave(object sender, MouseEventArgs e)
+        {
+            RingBlock.TextDecorations = null;
+        }
+
+        private void TextBlock_MouseEnter_2(object sender, MouseEventArgs e)
+        {
+            PosterBlock.TextDecorations = TextDecorations.Underline;
+        }
+
+        private void TextBlock_MouseLeave_1(object sender, MouseEventArgs e)
+        {
+            PosterBlock.TextDecorations = null;
+        }
     }
 }

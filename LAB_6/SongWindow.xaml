@@ -10,9 +10,25 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="70"></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
         </Grid.RowDefinitions>
         <DataGrid x:Name="SondGridView" Grid.Row="1"/>
         <TextBlock x:Name="SongTitle" Text="Album Songs:" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White"/>
+        <Button Content="Добавить" Grid.Row="3" Width="150" HorizontalAlignment="Left" Click="AddSong"/>
+        <Button Content="Показать" Grid.Row="3" Width="150" HorizontalAlignment="Center" VerticalAlignment="Stretch" Click="ShowSong"/>
+        <Button Content="Удалить" Grid.Row="3" Width="150" HorizontalAlignment="Right" VerticalAlignment="Stretch" Click="DeleteSong"/>
 
+
+        <TextBox x:Name="SongName" TextAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Text="WTF" Width="150" Background="Gainsboro" HorizontalAlignment="Left"/>
+        <TextBox x:Name="SongDuration" TextAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Text="WTF" Width="150" Background="Gainsboro" HorizontalAlignment="Center"/>
+        <ComboBox x:Name="SongAlbum" Text="undefindAlbum" Grid.Row="2"  Width="150"   VerticalAlignment="Center" HorizontalAlignment="Right" >
+            <TextBlock>We are Chaos</TextBlock>
+            <TextBlock>Heaven Upside Down</TextBlock>
+            <TextBlock>The Pale Emperor</TextBlock>
+            <TextBlock>Born Villain</TextBlock>
+            <TextBlock>The High End of Low</TextBlock>
+            <TextBlock>Eat Me, Drink Me</TextBlock>
+        </ComboBox>
     </Grid>
 </Window>

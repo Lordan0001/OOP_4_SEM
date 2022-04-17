@@ -1,4 +1,4 @@
-﻿<Window  Icon="/Resource/Skull.ico" x:Class="Rock_shop.MainWindow"
+﻿<Window Cursor="Cross"  Icon="/Resource/Skull.ico" x:Class="Rock_shop.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -22,12 +22,12 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <TextBlock  x:Name="First" Grid.Row="0" Text="Рок-Бастион" Grid.ColumnSpan="4"  VerticalAlignment="Center" TextAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White"  />
-        <TextBlock  TextAlignment="Center" Text="Дополнительные" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White" FontWeight="Normal" FontStyle="Italic"/>
-        <TextBlock  TextAlignment="Center" Text="Браслеты" Grid.Row="1" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="20" Foreground="White" VerticalAlignment="Center" PreviewMouseDown="TextBlock_Bracelet"/>
-        <TextBlock  TextAlignment="Center" Text="Кольца" Grid.Row="2" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="20" Foreground="White" VerticalAlignment="Center" PreviewMouseDown="TextBlock_Ring"/>
-        <TextBlock  TextAlignment="Center" Text="Постеры" Grid.Row="3" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="20" Foreground="White" VerticalAlignment="Center" PreviewMouseDown="TextBlock_Poster"/>
+        <TextBlock  TextAlignment="Center"  Text="Дополнительные" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White" FontWeight="Normal" FontStyle="Italic"/>
+        <TextBlock x:Name="BraceleteBlock"  TextAlignment="Center" Text="Браслеты" Grid.Row="1" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="20" Foreground="White" VerticalAlignment="Center" PreviewMouseDown="TextBlock_Bracelet" MouseEnter="TextBlock_MouseEnter" MouseLeave="BraceleteBlock_MouseLeave"/>
+        <TextBlock x:Name="RingBlock"  TextAlignment="Center" Text="Кольца" Grid.Row="2" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="20" Foreground="White" VerticalAlignment="Center" PreviewMouseDown="TextBlock_Ring" MouseEnter="TextBlock_MouseEnter_1" MouseLeave="TextBlock_MouseLeave"/>
+        <TextBlock x:Name="PosterBlock"  TextAlignment="Center" Text="Постеры" Grid.Row="3" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="20" Foreground="White" VerticalAlignment="Center" PreviewMouseDown="TextBlock_Poster" MouseEnter="TextBlock_MouseEnter_2" MouseLeave="TextBlock_MouseLeave_1"/>
 
-
+       
         <TextBlock  TextAlignment="Center" Text="Основные категории" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3"  FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White" FontStyle="Italic"/>
 
         <Image  Source="/Resource/We_are_chaos.jpeg" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"/>
