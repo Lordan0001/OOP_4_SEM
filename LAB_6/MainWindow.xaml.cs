@@ -118,5 +118,40 @@ namespace Rock_shop
         {
             PosterBlock.TextDecorations = null;
         }
+        public static int Count = 1;
+        private void Language_Click(object sender, RoutedEventArgs e)
+        {
+
+       /*     int count = 1;*/
+        
+            int two = 2;
+            Count++;
+            if (Count % two ==0)
+            {
+                Language.Content = "Eng";
+                First.Text = "Rock-Bastion";
+                More.Text = "More";
+                BraceleteBlock.Text = "Bracelets";
+                RingBlock.Text = "Rings";
+                PosterBlock.Text = "Posters";
+                MainCategories.Text = "Main categories";
+            }
+
+            else
+            {
+                Language.Content = "Rus";
+                First.Text = "Рок-Бастион";
+                More.Text = "Дополнительные";
+                BraceleteBlock.Text = "Браслеты";
+                RingBlock.Text = "Кольца";
+                PosterBlock.Text = "Постеры";
+                MainCategories.Text = "Основные категории";
+            }
+
+
+
+
+
+        }
     }
 }

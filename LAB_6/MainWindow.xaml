@@ -22,13 +22,19 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <TextBlock  x:Name="First" Grid.Row="0" Text="Рок-Бастион" Grid.ColumnSpan="4"  VerticalAlignment="Center" TextAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White"  />
-        <TextBlock  TextAlignment="Center"  Text="Дополнительные" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White" FontWeight="Normal" FontStyle="Italic"/>
-        <TextBlock x:Name="BraceleteBlock"  TextAlignment="Center" Text="Браслеты" Grid.Row="1" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="20" Foreground="White" VerticalAlignment="Center" PreviewMouseDown="TextBlock_Bracelet" MouseEnter="TextBlock_MouseEnter" MouseLeave="BraceleteBlock_MouseLeave"/>
+
+
+        <TextBlock  TextAlignment="Center" Grid.Row="1" Grid.Column="0" Background="Black" />
+        <TextBlock  TextAlignment="Center" Grid.Row="2" Grid.Column="0" Background="Black"/>
+        <TextBlock  TextAlignment="Center" Grid.Row="3" Grid.Column="0" Background="Black"/>
+        
+        <TextBlock x:Name="More"  TextAlignment="Center"  Text="Дополнительные" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White" FontWeight="Normal" FontStyle="Italic"/>
+        <TextBlock  x:Name="BraceleteBlock"  TextAlignment="Center" Text="Браслеты" Grid.Row="1" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="20" Foreground="White" VerticalAlignment="Center" PreviewMouseDown="TextBlock_Bracelet" MouseEnter="TextBlock_MouseEnter" MouseLeave="BraceleteBlock_MouseLeave"/>
         <TextBlock x:Name="RingBlock"  TextAlignment="Center" Text="Кольца" Grid.Row="2" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="20" Foreground="White" VerticalAlignment="Center" PreviewMouseDown="TextBlock_Ring" MouseEnter="TextBlock_MouseEnter_1" MouseLeave="TextBlock_MouseLeave"/>
         <TextBlock x:Name="PosterBlock"  TextAlignment="Center" Text="Постеры" Grid.Row="3" HorizontalAlignment="Center" FontFamily=" Georgia, serif" FontSize="20" Foreground="White" VerticalAlignment="Center" PreviewMouseDown="TextBlock_Poster" MouseEnter="TextBlock_MouseEnter_2" MouseLeave="TextBlock_MouseLeave_1"/>
 
        
-        <TextBlock  TextAlignment="Center" Text="Основные категории" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3"  FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White" FontStyle="Italic"/>
+        <TextBlock x:Name="MainCategories"  TextAlignment="Center" Text="Основные категории" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3"  FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White" FontStyle="Italic"/>
 
         <Image  Source="/Resource/We_are_chaos.jpeg" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"/>
         <Image Source="/Resource/Heaven_Upside_Down.png" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Left"/>
@@ -43,6 +49,6 @@
         <TextBlock  Grid.Column="1" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 0 20 0" PreviewMouseDown="TextBlock_PreviewMouseDown_4">Альбом:<LineBreak />Born Villain</TextBlock>
         <TextBlock  Grid.Column="2" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Top" PreviewMouseDown="TextBlock_PreviewMouseDown_5" >Альбом:<LineBreak />The High End of<LineBreak /> Low</TextBlock>
         <TextBlock  Grid.Column="3" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Top" PreviewMouseDown="TextBlock_PreviewMouseDown_6">Альбом:<LineBreak />Eat Me, Drink Me</TextBlock>
-
+        <Button x:Name="Language" Grid.Column="3" Background="Black" Foreground="White" Grid.Row="0" Content="Rus" Width="30" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" Click="Language_Click" />
     </Grid>
 </Window>
