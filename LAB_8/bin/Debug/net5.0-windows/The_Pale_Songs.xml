@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<ArrayOfAlbum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Album>
+    <SongName>Killing Strangers</SongName>
+    <SongDuration>5:36</SongDuration>
+    <FromAlbum>The Pale Emperor</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Deep Six</SongName>
+    <SongDuration>5:02</SongDuration>
+    <FromAlbum>The Pale Emperor</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Third Day of a Seven Day Binge</SongName>
+    <SongDuration>4:26</SongDuration>
+    <FromAlbum>The Pale Emperor</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>The Mephistopheles of Los Angeles</SongName>
+    <SongDuration>4:57</SongDuration>
+    <FromAlbum>The Pale Emperor</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Warship My Wreck</SongName>
+    <SongDuration>5:57</SongDuration>
+    <FromAlbum>The Pale Emperor</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Slave Only Dreams to be King</SongName>
+    <SongDuration>5:20</SongDuration>
+    <FromAlbum>The Pale Emperor</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>The Devil Beneath My Feet</SongName>
+    <SongDuration>4:16</SongDuration>
+    <FromAlbum>The Pale Emperor</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Birds of Hell Awaiting</SongName>
+    <SongDuration>5:05</SongDuration>
+    <FromAlbum>The Pale Emperor</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Cupid Carries a Gun</SongName>
+    <SongDuration>4:59</SongDuration>
+    <FromAlbum>The Pale Emperor</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Odds of Even</SongName>
+    <SongDuration>52:00</SongDuration>
+    <FromAlbum>The Pale Emperor</FromAlbum>
+  </Album>
+</ArrayOfAlbum>

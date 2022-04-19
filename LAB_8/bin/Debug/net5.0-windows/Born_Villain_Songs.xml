@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<ArrayOfAlbum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Album>
+    <SongName>Hey, Cruel World…</SongName>
+    <SongDuration>3:44</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>No Reflection</SongName>
+    <SongDuration>4:36</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Pistol Whipped</SongName>
+    <SongDuration>4:10</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Overneath the Path of Misery</SongName>
+    <SongDuration>5:18</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Slo-Mo-Tion</SongName>
+    <SongDuration>4:24</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>The Gardener</SongName>
+    <SongDuration>4:39</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>The Flowers of Evil</SongName>
+    <SongDuration>5:19</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Disengaged</SongName>
+    <SongDuration>3:25</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Lay Down Your Goddamn Arms</SongName>
+    <SongDuration>4:13</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Children of Cain</SongName>
+    <SongDuration>5:17</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Murderers Are Getting Prettier Every Day</SongName>
+    <SongDuration>4:18</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Born Villain</SongName>
+    <SongDuration>5:26</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Breaking the Same Old Ground</SongName>
+    <SongDuration>59:17</SongDuration>
+    <FromAlbum>Born Villain</FromAlbum>
+  </Album>
+</ArrayOfAlbum>
