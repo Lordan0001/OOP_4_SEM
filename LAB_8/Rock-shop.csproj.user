@@ -21,10 +21,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="dark.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="BraceletWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Dictionary1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="light.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

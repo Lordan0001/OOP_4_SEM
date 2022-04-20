@@ -1,12 +1,12 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Style x:Key="Win" TargetType="Window">
-        <Setter Property="Background" Value="White"/>
-    </Style>
+        <Setter Property="Background" Value="Black"/>
 
+    </Style>
     <Style x:Key="TextStyle" TargetType="TextBlock">
-        <Setter Property="Background" Value="#FF564F4F"/>
-        <Setter Property="Foreground" Value="#FFE5DEDE"/>
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="Foreground" Value="Black"/>
         <Setter Property="FontSize" Value="20"/>
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
@@ -23,7 +23,7 @@
             <MultiTrigger>
                 <MultiTrigger.Conditions>
                     <Condition Property="IsMouseOver" Value="True"/>
-                  
+
 
                 </MultiTrigger.Conditions>
                 <MultiTrigger.Setters>
@@ -37,8 +37,8 @@
 
 
     <Style x:Key="ButtonStyle" TargetType="Button">
-        <Setter Property="Background" Value="#FF564F4F"/>
-        <Setter Property="Foreground" Value="#FFE5DEDE"/>
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="Foreground" Value="Black"/>
         <Setter Property="FontSize" Value="14"/>
         <Style.Triggers>
             <MultiTrigger>
@@ -50,7 +50,7 @@
                 <MultiTrigger.Setters>
                     <Setter Property="FontSize" Value="16"/>
                     <Setter Property="Foreground" Value="Red"/>
-                  
+
                 </MultiTrigger.Setters>
             </MultiTrigger>
         </Style.Triggers>
@@ -58,8 +58,8 @@
 
 
     <Style x:Key="MainStyle" TargetType="TextBlock">
-        <Setter Property="Background" Value="#FF564F4F"/>
-        <Setter Property="Foreground" Value="#FFE5DEDE"/>
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="Foreground" Value="Black"/>
         <Setter Property="TextAlignment" Value="Center"/>
         <Setter Property="FontFamily" Value="Georgia, serif"/>
         <Setter Property="FontSize" Value="22"/>
@@ -85,7 +85,7 @@
             </EventTrigger>
 
         </Style.Triggers>
-        
+
     </Style>
 
     <Style x:Key="Confirm" TargetType="Button">
