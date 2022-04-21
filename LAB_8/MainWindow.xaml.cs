@@ -24,7 +24,7 @@ namespace Rock_shop
         {
             InitializeComponent();
 
-            List<string> styles = new List<string> { "light", "dark" };
+            List<string> styles = new List<string> { "red", "dark","grey" };
             styleBox.SelectionChanged += ThemeChange;
             styleBox.ItemsSource = styles;
             styleBox.SelectedItem = "dark";
@@ -33,6 +33,10 @@ namespace Rock_shop
         private void ThemeChange(object sender, SelectionChangedEventArgs e)
         {
             string style = styleBox.SelectedItem as string;
+            if (style == "grey")
+            {
+                style = "Dictionary1";
+            }
             // определяем путь к файлу ресурсов
             var uri = new Uri(style + ".xaml", UriKind.Relative);
             // загружаем словарь ресурсов
@@ -152,6 +156,7 @@ namespace Rock_shop
                 RingBlock.Text = "Rings";
                 PosterBlock.Text = "Posters";
                 MainCategories.Text = "Main categories";
+                BestText.Text = "Best lab";
             }
 
             else
@@ -163,6 +168,7 @@ namespace Rock_shop
                 RingBlock.Text = "Кольца";
                 PosterBlock.Text = "Постеры";
                 MainCategories.Text = "Основные категории";
+                BestText.Text = "Лучшая лаба";
             }
 
 

@@ -85,4 +85,7 @@ D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_8\obj\D
 D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_8\obj\Debug\net5.0-windows\Rock-shop.csproj.AssemblyReference.cache
 D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_8\obj\Debug\net5.0-windows\dark.baml
 D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_8\obj\Debug\net5.0-windows\Dictionary1.baml
-D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_8\obj\Debug\net5.0-windows\light.baml
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_8\obj\Debug\net5.0-windows\red.baml
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_8\obj\Debug\net5.0-windows\Login.g.cs
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_8\obj\Debug\net5.0-windows\Login.baml
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_8\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs

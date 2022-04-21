@@ -10,6 +10,9 @@
     <Compile Update="BraceletWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="PostersWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -30,7 +33,10 @@
     <Page Update="Dictionary1.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="light.xaml">
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="red.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
