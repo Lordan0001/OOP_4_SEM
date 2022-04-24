@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfAlbum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Album>
+    <SongName>WTF</SongName>
+    <SongDuration>WTF</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>WTF</SongName>
+    <SongDuration>WTF</SongDuration>
+    <FromAlbum>sbshsfh</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>WTF</SongName>
+    <SongDuration>WTF</SongDuration>
+    <FromAlbum>sbshsfh</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>adsda</SongName>
+    <SongDuration>asd</SongDuration>
+    <FromAlbum>Heaven Upside Down</FromAlbum>
+  </Album>
+</ArrayOfAlbum>

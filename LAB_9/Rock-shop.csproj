@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Rock_shop</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\Born_Villain_Cover_Art.jpg" />
+    <None Remove="Resource\bracelet1.jpg" />
+    <None Remove="Resource\bracelet2.jpg" />
+    <None Remove="Resource\bracelet3.jpg" />
+    <None Remove="Resource\bracelet4.jpg" />
+    <None Remove="Resource\bracelet5.jpg" />
+    <None Remove="Resource\bracelet6.jpg" />
+    <None Remove="Resource\Eat_Me,_Drink_Me_(2007).jpg" />
+    <None Remove="Resource\Heaven_Upside_Down.png" />
+    <None Remove="Resource\Poster1.jpg" />
+    <None Remove="Resource\Poster2.jpg" />
+    <None Remove="Resource\Poster3.jpg" />
+    <None Remove="Resource\Poster4.jpg" />
+    <None Remove="Resource\Poster5.jpg" />
+    <None Remove="Resource\Poster6.jpg" />
+    <None Remove="Resource\ring1.jpg" />
+    <None Remove="Resource\ring2.jpg" />
+    <None Remove="Resource\ring3.jpg" />
+    <None Remove="Resource\ring4.jpg" />
+    <None Remove="Resource\ring5.jpg" />
+    <None Remove="Resource\ring6.jpg" />
+    <None Remove="Resource\Skull.ico" />
+    <None Remove="Resource\skull.png" />
+    <None Remove="Resource\star.png" />
+    <None Remove="Resource\The_High_End_of_Low.jpg" />
+    <None Remove="Resource\The_Pale_Emperor.jpeg" />
+    <None Remove="Resource\We_are_chaos.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\bracelet1.jpg" />
+    <Resource Include="Resource\bracelet2.jpg" />
+    <Resource Include="Resource\bracelet3.jpg" />
+    <Resource Include="Resource\bracelet4.jpg" />
+    <Resource Include="Resource\bracelet5.jpg" />
+    <Resource Include="Resource\bracelet6.jpg" />
+    <Resource Include="Resource\Poster1.jpg" />
+    <Resource Include="Resource\Poster2.jpg" />
+    <Resource Include="Resource\Poster3.jpg" />
+    <Resource Include="Resource\Poster4.jpg" />
+    <Resource Include="Resource\Poster5.jpg" />
+    <Resource Include="Resource\Poster6.jpg" />
+    <Resource Include="Resource\ring1.jpg" />
+    <Resource Include="Resource\ring2.jpg" />
+    <Resource Include="Resource\ring3.jpg" />
+    <Resource Include="Resource\ring4.jpg" />
+    <Resource Include="Resource\ring5.jpg" />
+    <Resource Include="Resource\ring6.jpg" />
+    <Resource Include="Resource\Skull.ico" />
+    <Resource Include="Resource\skull.png" />
+    <Resource Include="Resource\star.png" />
+    <Resource Include="Resource\The_Pale_Emperor.jpeg" />
+    <Resource Include="Resource\Born_Villain_Cover_Art.jpg">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resource\Eat_Me,_Drink_Me_%282007%29.jpg" />
+    <Resource Include="Resource\Heaven_Upside_Down.png" />
+    <Resource Include="Resource\The_High_End_of_Low.jpg" />
+    <Resource Include="Resource\We_are_chaos.jpeg" />
+  </ItemGroup>
+
+</Project>

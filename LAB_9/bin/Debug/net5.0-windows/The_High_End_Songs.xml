@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<ArrayOfAlbum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Album>
+    <SongName>Devour</SongName>
+    <SongDuration>3:46</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Pretty as a Swastika</SongName>
+    <SongDuration>2:45</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Leave a Scar</SongName>
+    <SongDuration>3:55</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Four Rusted Horses</SongName>
+    <SongDuration>5:00</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Arma-Goddamn-Motherfuckin-Geddon</SongName>
+    <SongDuration>3:39</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Blank and White</SongName>
+    <SongDuration>4:27</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Running to the Edge of the World</SongName>
+    <SongDuration>6:26</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>I Want to Kill You Like They Do in the Movies</SongName>
+    <SongDuration>9:02</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>WOW</SongName>
+    <SongDuration>4:55</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Wight Spider</SongName>
+    <SongDuration>5:33</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Unkillable Monster</SongName>
+    <SongDuration>3:44</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>We're from America</SongName>
+    <SongDuration>5:04</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>I Have to Look Up Just to See Hell</SongName>
+    <SongDuration>4:12</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>Into the Fire</SongName>
+    <SongDuration>5:15</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+  <Album>
+    <SongName>15</SongName>
+    <SongDuration>4:21</SongDuration>
+    <FromAlbum>The High End of Low</FromAlbum>
+  </Album>
+</ArrayOfAlbum>
