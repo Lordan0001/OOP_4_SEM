@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Windows;
+using System.Windows.Input;
 using System.Xml.Serialization;
 
 namespace Rock_shop
@@ -21,7 +22,65 @@ namespace Rock_shop
           //  SaveSongs();
             // ShowEatMeSongs();
         }
-       public void SelSongs(string dir)
+        private void TextBox_KeyDown(object sender, KeyEventArgs e)//Undo redo
+        {
+            if (e.KeyboardDevice.Modifiers == ModifierKeys.Control && e.Key == Key.Q)
+            {
+                string directory = ChooseDirectory();
+                string chosenName = SongName.Text;
+                string chosenDuration = SongDuration.Text;
+
+                List<Album> p1 = new List<Album>();
+                XmlSerializer serial = new XmlSerializer(typeof(List<Album>));
+                //ctrl+q - удалить,ctrl+w - добавить
+
+                using (FileStream fs = new FileStream(Environment.CurrentDirectory + directory, FileMode.Open, FileAccess.Read))
+                {
+
+                    p1 = serial.Deserialize(fs) as List<Album>;
+                }
+                foreach (var item in p1.ToArray())
+                {
+                    if (item.SongName == chosenName/* || item.SongDuration == chosenDuration*/)
+                    {
+                        p1.Remove(item);
+                    }
+
+                }
+                using (FileStream fs = new FileStream(Environment.CurrentDirectory + directory, FileMode.Create, FileAccess.Write))
+                {
+                    serial.Serialize(fs, p1);
+                }
+            }
+            else if (e.KeyboardDevice.Modifiers == ModifierKeys.Control && e.Key == Key.W)
+            {
+                Album album = new Album();
+                album.SongName = SongName.Text;
+                album.SongDuration = SongDuration.Text;
+                album.FromAlbum = SongAlbum.Text;
+
+                List<Album> p1 = new List<Album>();
+                XmlSerializer serial = new XmlSerializer(typeof(List<Album>));
+
+                string directory = ChooseDirectory();
+
+                using (FileStream fs = new FileStream(Environment.CurrentDirectory + directory, FileMode.Open, FileAccess.Read))
+                {
+
+                    p1 = serial.Deserialize(fs) as List<Album>;
+
+                }
+
+
+                p1.Add(album);
+                using (FileStream fs = new FileStream(Environment.CurrentDirectory + directory, FileMode.Create, FileAccess.Write))
+                {
+                    serial.Serialize(fs, p1);
+                }
+            }
+        }
+
+        public void SelSongs(string dir)
         {
             List<Album> p1 = new List<Album>();
             XmlSerializer serial = new XmlSerializer(typeof(List<Album>));
@@ -126,16 +185,10 @@ namespace Rock_shop
             album.SongDuration = SongDuration.Text;
             album.FromAlbum = SongAlbum.Text;
 
-
-
             List<Album> p1 = new List<Album>();
             XmlSerializer serial = new XmlSerializer(typeof(List<Album>));
 
             string directory = ChooseDirectory();
-
-           
-
-
 
             using (FileStream fs = new FileStream(Environment.CurrentDirectory + directory, FileMode.Open, FileAccess.Read))
             {
