@@ -171,15 +171,17 @@ namespace Rock_shop
                 BestText.Text = "Лучшая лаба";
             }
 
-
-
-
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Подтверждено!");
+        }
+
+        private void BestText_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            EventWindow eventWindow = new EventWindow();
+            eventWindow.Show();
         }
     }
 }

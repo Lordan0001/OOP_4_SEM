@@ -82,7 +82,7 @@
                    HorizontalAlignment="Right" VerticalAlignment="Top" PreviewMouseDown="TextBlock_PreviewMouseDown_6">Альбом:<LineBreak />Eat Me, Drink Me</TextBlock>
 
         <TextBlock x:Name="BestText" TextWrapping="Wrap" Style="{DynamicResource TextStyle1}" Grid.Row="1" Grid.Column="1"
-                   Text="Лучшая лаба" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                   Text="Лучшая лаба" VerticalAlignment="Top" HorizontalAlignment="Center" PreviewMouseDown="BestText_PreviewMouseDown"/>
 
 
         <!--Images -->

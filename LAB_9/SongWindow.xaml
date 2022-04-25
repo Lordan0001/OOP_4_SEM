@@ -14,7 +14,7 @@
             <RowDefinition Height="40"></RowDefinition>
         </Grid.RowDefinitions>
         <DataGrid x:Name="SondGridView" Grid.Row="1"/>
-        <TextBlock x:Name="SongTitle" Text="Album Songs:" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White"/>
+        <TextBlock Style="{DynamicResource MainStyle}" x:Name="SongTitle" Text="Album Songs:" Grid.Column="0" VerticalAlignment="Center" Foreground="White" />
         <Button Content="Добавить" Grid.Row="3" Width="150" HorizontalAlignment="Left" Click="AddSong"/>
         <Button Content="Показать" Grid.Row="3" Width="150" HorizontalAlignment="Center" VerticalAlignment="Stretch" Click="ShowSong"/>
         <Button Content="Удалить" Grid.Row="3" Width="150" HorizontalAlignment="Right" VerticalAlignment="Stretch" Click="DeleteSong"/>

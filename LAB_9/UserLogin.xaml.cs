@@ -19,32 +19,16 @@ namespace Rock_shop
     /// </summary>
     public partial class UserLogin : Window
     {
-        VallidateLogin Val;
+       // VallidateLogin Val;
+
         public UserLogin()
         {
             InitializeComponent();
-            Val = new VallidateLogin();
-            this.DataContext = Val;
+           // Val = new VallidateLogin();
+            //this.DataContext = Val;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
-        }
+   
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            if (log.Text == "Admin" && pass.Text == "1111")
-            {
-               
-                MainWindow mainWindow = new MainWindow();
-                mainWindow.Show();
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show("Неверно!");
-            }
-        }
     }
 }

@@ -130,3 +130,5 @@ D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_9\obj\D
 D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_9\obj\Debug\net5.0-windows\UserLogin.baml
 D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_9\obj\Debug\net5.0-windows\UserContolLogin.g.cs
 D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_9\obj\Debug\net5.0-windows\UserContolLogin.baml
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_9\obj\Debug\net5.0-windows\EventWindow.g.cs
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_9\obj\Debug\net5.0-windows\EventWindow.baml

@@ -24,5 +24,22 @@ namespace Rock_shop
         {
             InitializeComponent();
         }
+
+  
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (log.Text == "Admin" && pass.Text == "1111")
+            {
+
+                MainWindow mainWindow = new MainWindow();
+                mainWindow.Show();
+                //this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Неверно!");
+            }
+        }
     }
 }

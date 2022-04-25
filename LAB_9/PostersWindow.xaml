@@ -22,9 +22,9 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock  x:Name="First" Text="Постеры" Grid.ColumnSpan="4"  VerticalAlignment="Center" TextAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Background="Black" Foreground="White" Height="25"  />
-        <TextBlock  VerticalAlignment="Center" TextAlignment="Center" FontFamily=" Georgia, serif" FontSize="22" Text="Описание" Grid.Row="1" Grid.Column="0" Background="Black"  Foreground="White" Height="25"/>
-        <TextBlock TextWrapping ="Wrap"  x:Name="Desc1" Text="Нажмите на изображение о котором хотите узнать."  FontFamily=" Georgia, serif" FontSize="12"  Grid.Row="3" Grid.Column="0" Background="Black"  Foreground="White"/>
+        <TextBlock  Style="{DynamicResource MainStyle}" x:Name="First" Text="Постеры" Grid.ColumnSpan="4"  VerticalAlignment="Center"   />
+        <TextBlock Style="{DynamicResource MainStyle}" VerticalAlignment="Center"  Text="Описание" Grid.Row="1" Grid.Column="0" />
+        <TextBlock Style="{DynamicResource DeskBac}" TextWrapping ="Wrap"  x:Name="Desc1" Text="Нажмите на изображение о котором хотите узнать."  FontFamily=" Georgia, serif" FontSize="12"  Grid.Row="3" Grid.Column="0"  Foreground="White"/>
 
         <TextBlock x:Name="Name1" Text="None" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily=" Georgia, serif" FontSize="12"  />
         <TextBlock x:Name="Name2" Text="None" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily=" Georgia, serif" FontSize="12"  />

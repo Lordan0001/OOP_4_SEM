@@ -6,47 +6,11 @@
         xmlns:local="clr-namespace:Rock_shop"
         mc:Ignorable="d"
         Title="UserLogin" Height="450" Width="800">
-    <Window.DataContext>
-        <local:VallidateLogin/>
-    </Window.DataContext>
-    <Grid Margin="10,10,10,10">
-        <Grid.RowDefinitions >
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
 
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
+    <Grid>
 
-
-
-        <TextBlock Style="{DynamicResource MainStyle}"  VerticalAlignment="Center"  Grid.Row="0"
-                   Text="Войти" Grid.ColumnSpan="4"    />
-
-        <TextBlock HorizontalAlignment="Center" Grid.Row="1" Grid.Column="0" Text="Логин" Grid.ColumnSpan="4"  VerticalAlignment="Top" FontFamily="Agency FB" FontSize="18"/>
-    
-        <TextBox Style="{DynamicResource LogEnter}" Text="{Binding Username, ValidatesOnExceptions=True,
-            UpdateSourceTrigger=PropertyChanged}" Validation.ErrorTemplate="{StaticResource errorTemplate}" 
-                 x:Name="log"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
-
-
-
-        <TextBlock HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1" Text="Пароль" Grid.ColumnSpan="2"  VerticalAlignment="Top" FontSize="18"/>
-   
-        <TextBox Style="{DynamicResource LogEnter}" Text="{Binding Password, ValidatesOnExceptions=True,
-            UpdateSourceTrigger=PropertyChanged}" Validation.ErrorTemplate="{StaticResource errorTemplate}"
-                 x:Name="pass"  Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Image  Source="/Resource/skull.png" Grid.Column="3" Grid.Row="1" Width="60" Height="60" HorizontalAlignment="Right"/>
-
-        <Button Grid.Column="3" Grid.Row="3" Width="80" Height="50" Content="Далее" Click="Button_Click_1"/>
-        <Button Grid.Column="0" Grid.Row="3" Width="80" Height="50" Content="Выход" Click="Button_Click" />
-
-
+        <local:UserContolLogin/>
+       
     </Grid>
+
 </Window>

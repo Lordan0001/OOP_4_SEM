@@ -10,6 +10,9 @@
     <Compile Update="BraceletWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="EventWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -37,6 +40,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Dictionary1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EventWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Login.xaml">
