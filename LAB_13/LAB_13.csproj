@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Sourse\**" />
+    <EmbeddedResource Remove="Sourse\**" />
+    <None Remove="Sourse\**" />
+    <Page Remove="Sourse\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resourse\Heaven_Upside_Down.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resourse\Heaven_Upside_Down.png" />
+  </ItemGroup>
+
+</Project>
