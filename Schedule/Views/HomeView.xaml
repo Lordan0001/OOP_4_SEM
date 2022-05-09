@@ -25,5 +25,8 @@
             </DataGrid.Columns>
         </DataGrid>
 
+        <ComboBox x:Name="WeekComboBox" Grid.Row="2" Width="110" Height="30" HorizontalAlignment="Right" VerticalContentAlignment="Center" />
+        <Button x:Name="ShowButton" Content="Показать" Width="170" Height="40" Grid.Row="2" Click="ShowButton_Click"/>
+
     </Grid>
 </UserControl>

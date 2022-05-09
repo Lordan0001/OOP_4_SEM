@@ -29,6 +29,41 @@ namespace SwitchingViewsMVVM.Views
             db = new WeekContext();
             db.Mondays.Load();
             WeekGrid.ItemsSource = db.Mondays.Local.ToBindingList();
+
+            List<string> Days = new List<string> { "Понедельник", "Вторник", "Среда","Четверг","Пятница","Суббота" };
+            WeekComboBox.ItemsSource = Days;
+
+
+        }
+
+        private void ShowButton_Click(object sender, RoutedEventArgs e)
+        {
+            string Day = WeekComboBox.SelectedItem.ToString();
+            switch (Day)
+            {
+                case "Понедельник":
+                    db.Mondays.Load();
+                    WeekGrid.ItemsSource = db.Mondays.Local.ToBindingList(); break;
+                case "Вторник":
+                    db.Tuesdays.Load();
+                    WeekGrid.ItemsSource = db.Tuesdays.Local.ToBindingList(); break;
+
+                case "Среда":
+                    db.Wednesdays.Load();
+                    WeekGrid.ItemsSource = db.Wednesdays.Local.ToBindingList(); break;
+                case "Четверг":
+                    db.Thursdays.Load();
+                    WeekGrid.ItemsSource = db.Thursdays.Local.ToBindingList(); break;
+                case "Пятница":
+                    db.Fridays.Load();
+                    WeekGrid.ItemsSource = db.Fridays.Local.ToBindingList(); break;
+                case "Суббота":
+                    db.Saturdays.Load();
+                    WeekGrid.ItemsSource = db.Saturdays.Local.ToBindingList(); break;
+
+                default:
+                    break;
+            }
         }
     }
 }
