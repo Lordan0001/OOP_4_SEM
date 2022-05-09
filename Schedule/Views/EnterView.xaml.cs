@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using SwitchingViewsMVVM;
 
 namespace SwitchingViewsMVVM.Views
 {
@@ -23,7 +24,13 @@ namespace SwitchingViewsMVVM.Views
         public EnterView()
         {
             InitializeComponent();
+
+
         }
+
+
+
+
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             if (log.Text == "Admin" && pass.Text == "1111")
@@ -31,7 +38,8 @@ namespace SwitchingViewsMVVM.Views
 
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
-                //this.Close();
+            
+                
             }
             else
             {

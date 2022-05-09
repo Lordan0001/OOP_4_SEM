@@ -5,7 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:SwitchingViewsMVVM.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800" Background="Green">
+             d:DesignHeight="450" d:DesignWidth="800" Background="White">
+
+  
     <UserControl.DataContext>
         <local:VallidateLogin/>
     </UserControl.DataContext>
@@ -26,12 +28,12 @@
 
 
 
-        <TextBlock  VerticalAlignment="Center"  Grid.Row="0"
-                   Text="Войти" Grid.ColumnSpan="4"    />
+        <TextBlock   Style="{DynamicResource MainText}" Grid.Row="0"
+                   Text="Войти" Grid.ColumnSpan="4"  />
 
         <TextBlock HorizontalAlignment="Center" Grid.Row="1" Grid.Column="0" Text="Логин" Grid.ColumnSpan="4"  VerticalAlignment="Top" FontFamily="Agency FB" FontSize="18"/>
 
-        <TextBox  Text="{Binding Username, ValidatesOnExceptions=True,
+        <TextBox Style="{DynamicResource EnterBox}" Text="{Binding Username, ValidatesOnExceptions=True,
             UpdateSourceTrigger=PropertyChanged}" Validation.ErrorTemplate="{StaticResource errorTemplate}" 
                  x:Name="log"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
 
@@ -39,12 +41,13 @@
 
         <TextBlock HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1" Text="Пароль" Grid.ColumnSpan="2"  VerticalAlignment="Top" FontSize="18"/>
 
-        <TextBox  Text="{Binding Password, ValidatesOnExceptions=True,
+        <TextBox  Style="{DynamicResource EnterBox}"  Text="{Binding Password, ValidatesOnExceptions=True,
             UpdateSourceTrigger=PropertyChanged}" Validation.ErrorTemplate="{StaticResource errorTemplate}"
                  x:Name="pass"  Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"/>
 
 
         <Button Grid.Column="3" Grid.Row="3" Width="80" Height="50" Content="Далее" Click="Button_Click_1"/>
+        
 
     </Grid>
 </UserControl>

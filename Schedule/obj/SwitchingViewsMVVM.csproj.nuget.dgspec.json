@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Course\\SwitchingViewsMVVM.csproj": {}
+    "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Schedule\\SwitchingViewsMVVM.csproj": {}
   },
   "projects": {
-    "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Course\\SwitchingViewsMVVM.csproj": {
+    "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Schedule\\SwitchingViewsMVVM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Course\\SwitchingViewsMVVM.csproj",
+        "projectUniqueName": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Schedule\\SwitchingViewsMVVM.csproj",
         "projectName": "SwitchingViewsMVVM",
-        "projectPath": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Course\\SwitchingViewsMVVM.csproj",
+        "projectPath": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Schedule\\SwitchingViewsMVVM.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Course\\obj\\",
+        "outputPath": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\Schedule\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

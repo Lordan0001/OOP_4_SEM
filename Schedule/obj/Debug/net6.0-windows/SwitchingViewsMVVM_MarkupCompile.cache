@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\Course\obj\Debug\net6.0-windows\
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\Schedule\obj\Debug\net6.0-windows\
 SwitchingViewsMVVM
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\Course\App.xaml
-4-407381500
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\Schedule\App.xaml
+8-798366026
 
-141440819203
-194-1951243044
-MainWindow.xaml;Views\AccountView.xaml;Views\EnterView.xaml;Views\HomeView.xaml;
+17-1155498022
+197-559087340
+EnterWindow.xaml;MainWindow.xaml;Themes\Dark.xaml;Themes\Grey.xaml;Themes\Red.xaml;Views\AccountView.xaml;Views\EnterView.xaml;Views\HomeView.xaml;
 
 False
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using SwitchingViewsMVVM.Week;
 
 namespace SwitchingViewsMVVM.Views
 {
@@ -20,9 +22,13 @@ namespace SwitchingViewsMVVM.Views
     /// </summary>
     public partial class HomeView : UserControl
     {
+        WeekContext db;
         public HomeView()
         {
             InitializeComponent();
+            db = new WeekContext();
+            db.Mondays.Load();
+            WeekGrid.ItemsSource = db.Mondays.Local.ToBindingList();
         }
     }
 }

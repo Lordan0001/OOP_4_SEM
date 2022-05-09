@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="EnterWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\AccountView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -18,7 +21,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="EnterWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Dark.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Red.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Grey.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\AccountView.xaml">

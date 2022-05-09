@@ -8,30 +8,33 @@
              
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <DataTemplate DataType="{x:Type viewmodels:HomeViewModel}">
-            <views:HomeView/>
-        </DataTemplate>
 
-        <DataTemplate DataType="{x:Type viewmodels:AccountViewModel}">
-            <views:AccountView/>
-        </DataTemplate>
-        
-        <DataTemplate DataType="{x:Type viewmodels:EnterViewModel}">
-            <views:EnterView/>
-        </DataTemplate>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Themes/Dark.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <DataTemplate DataType="{x:Type viewmodels:HomeViewModel}">
+                <views:HomeView/>
+            </DataTemplate>
 
+            <DataTemplate DataType="{x:Type viewmodels:AccountViewModel}">
+                <views:AccountView/>
+            </DataTemplate>
 
-        <ControlTemplate x:Key="errorTemplate">
-            <Border BorderBrush="OrangeRed" BorderThickness="2">
-                <Grid>
-                    <AdornedElementPlaceholder/>
-                    <TextBlock Text="{Binding [0].ErrorContent}" Foreground="OrangeRed"
+            <DataTemplate DataType="{x:Type viewmodels:EnterViewModel}">
+                <views:EnterView/>
+            </DataTemplate>
+            <ControlTemplate x:Key="errorTemplate">
+                <Border BorderBrush="OrangeRed" BorderThickness="2">
+                    <Grid>
+                        <AdornedElementPlaceholder/>
+                        <TextBlock Text="{Binding [0].ErrorContent}" Foreground="OrangeRed"
                                VerticalAlignment="Center" HorizontalAlignment="Right"
                                Margin="0,0,4,0"/>
-                </Grid>
-            </Border>
-        </ControlTemplate>
-
+                    </Grid>
+                </Border>
+            </ControlTemplate>
+        </ResourceDictionary>
 
     </Application.Resources>
 </Application>
