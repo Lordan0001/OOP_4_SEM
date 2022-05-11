@@ -19,7 +19,7 @@
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Id}" Header="Order" Width="100"/>
                 <DataGridTextColumn Binding="{Binding Time}" Header="Time" Width="100"/>
-                <DataGridTextColumn Binding="{Binding Name}" Header="Namr" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Name}" Header="Name" Width="200"/>
                 <DataGridTextColumn Binding="{Binding Type}" Header="Type" Width="100"/>
                 <DataGridTextColumn Binding="{Binding Number}" Header="Number" Width="100"/>
             </DataGrid.Columns>

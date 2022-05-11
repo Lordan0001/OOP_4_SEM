@@ -1,19 +1,9 @@
-﻿using System;
+﻿using SwitchingViewsMVVM.Week;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using SwitchingViewsMVVM.Week;
 
 namespace SwitchingViewsMVVM.Views
 {
@@ -27,18 +17,56 @@ namespace SwitchingViewsMVVM.Views
         {
             InitializeComponent();
             db = new WeekContext();
-            db.Mondays.Load();
-            WeekGrid.ItemsSource = db.Mondays.Local.ToBindingList();
 
-            List<string> Days = new List<string> { "Понедельник", "Вторник", "Среда","Четверг","Пятница","Суббота" };
+            DateTime dateTime;
+            dateTime = DateTime.Now;
+
+            string NowDay = dateTime.DayOfWeek.ToString();
+
+
+            // db.Mondays.Load();
+            //WeekGrid.ItemsSource = db.Mondays.Local.ToBindingList();
+
+            List<string> Days = new List<string> { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота" };
             WeekComboBox.ItemsSource = Days;
+            WeekComboBox.SelectedItem = "Понедельник";
+
+            switch (NowDay)
+            {
+                case "Monday":
+                    db.Mondays.Load();
+                    WeekGrid.ItemsSource = db.Mondays.Local.ToBindingList(); break;
+                case "Tuesdays":
+                    db.Tuesdays.Load();
+                    WeekGrid.ItemsSource = db.Tuesdays.Local.ToBindingList(); break;
+
+                case "Wednesday":
+                    db.Wednesdays.Load();
+                    WeekGrid.ItemsSource = db.Wednesdays.Local.ToBindingList(); break;
+                case "Thursday":
+                    db.Thursdays.Load();
+                    WeekGrid.ItemsSource = db.Thursdays.Local.ToBindingList(); break;
+                case "Friday":
+                    db.Fridays.Load();
+                    WeekGrid.ItemsSource = db.Fridays.Local.ToBindingList(); break;
+                case "Saturday":
+                    db.Saturdays.Load();
+                    WeekGrid.ItemsSource = db.Saturdays.Local.ToBindingList(); break;
+
+                default:
+                    break;
+            }
 
 
         }
 
         private void ShowButton_Click(object sender, RoutedEventArgs e)
         {
-            string Day = WeekComboBox.SelectedItem.ToString();
+
+            string Day;
+
+            Day = WeekComboBox.SelectedItem.ToString();
+
             switch (Day)
             {
                 case "Понедельник":

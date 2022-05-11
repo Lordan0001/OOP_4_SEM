@@ -34,7 +34,8 @@ namespace SwitchingViewsMVVM
             styleBox.SelectedItem = "/Themes/Dark";*/
 
             DataContext = new MainViewModel();
-          
+
+
         }
       /*  private void ThemeChange(object sender, SelectionChangedEventArgs e)
         {
