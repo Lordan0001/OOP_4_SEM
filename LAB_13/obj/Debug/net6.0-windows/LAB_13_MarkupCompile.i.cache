@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_13\obj\Debug\net6.0-windows\
+D:\GIT\OOP_4_SEM\LAB_13\obj\Debug\net6.0-windows\
 LAB_13
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\LAB_13\App.xaml
+D:\GIT\OOP_4_SEM\LAB_13\App.xaml
 3-2032611284
 
 15677798701
 197-559087340
 MainWindow.xaml;Views\AccountView.xaml;Views\HomeView.xaml;
 
-True
+False
 

@@ -15,13 +15,7 @@ namespace SwitchingViewsMVVM.Week
 
         }
 
-        public DbSet<Monday> Mondays { get; set; }
-
-        public DbSet<Tuesday> Tuesdays { get; set; }
-        public DbSet<Wednesday> Wednesdays { get; set; }
-        public DbSet<Thursday> Thursdays { get; set; }
-        public DbSet<Friday> Fridays { get; set; }
-        public DbSet<Saturday> Saturdays { get; set; }
+        public DbSet<Lesson> Lessons { get; set; }
 
     }
 }

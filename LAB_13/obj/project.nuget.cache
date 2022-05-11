@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "stg8tH7pDlWVBQ7bnaa9k0oWEizvXLFRjlPF0uXRUx1aKR4itznuzGyz9ws9oPt4IWNhd14KKvV3Xr0Twi3lxw==",
+  "dgSpecHash": "6SO764j2GocyFG17OD0ew18vozj3bFD2V5rcC7bTSvXe4bs3r0hv1U2mHMPr7m5idKl+XR9hPQiIGozqwRR71g==",
   "success": true,
-  "projectFilePath": "D:\\University\\БГТУ\\2 Курс\\4. Семместр\\ООП\\All Lab\\LAB_13\\LAB_13.csproj",
+  "projectFilePath": "D:\\GIT\\OOP_4_SEM\\LAB_13\\LAB_13.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

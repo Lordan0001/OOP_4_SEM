@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -24,38 +25,72 @@ namespace SwitchingViewsMVVM.Views
             string NowDay = dateTime.DayOfWeek.ToString();
 
 
-            // db.Mondays.Load();
-            //WeekGrid.ItemsSource = db.Mondays.Local.ToBindingList();
-
             List<string> Days = new List<string> { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота" };
             WeekComboBox.ItemsSource = Days;
             WeekComboBox.SelectedItem = "Понедельник";
 
+
+
+            WeekContext userContext = new WeekContext();
+
+
+            db.Lessons.Load();
+            IQueryable<Lesson> LessonsList;
+
+
             switch (NowDay)
             {
                 case "Monday":
-                    db.Mondays.Load();
-                    WeekGrid.ItemsSource = db.Mondays.Local.ToBindingList(); break;
+                LessonsList = userContext.Lessons
+                        .Where(c => c.When == "Понедельник")
+                        .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
+
+
                 case "Tuesdays":
-                    db.Tuesdays.Load();
-                    WeekGrid.ItemsSource = db.Tuesdays.Local.ToBindingList(); break;
+
+                    LessonsList = userContext.Lessons
+                      .Where(c => c.When == "Вторник")
+                       .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
+
 
                 case "Wednesday":
-                    db.Wednesdays.Load();
-                    WeekGrid.ItemsSource = db.Wednesdays.Local.ToBindingList(); break;
+
+                    LessonsList = userContext.Lessons
+                        .Where(c => c.When == "Среда")
+                        .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
+
+
                 case "Thursday":
-                    db.Thursdays.Load();
-                    WeekGrid.ItemsSource = db.Thursdays.Local.ToBindingList(); break;
+                    LessonsList = userContext.Lessons
+                       .Where(c => c.When == "Четверг")
+                        .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
+
+
                 case "Friday":
-                    db.Fridays.Load();
-                    WeekGrid.ItemsSource = db.Fridays.Local.ToBindingList(); break;
+                    LessonsList = userContext.Lessons
+                        .Where(c => c.When == "Пятница")
+                         .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
+
+
                 case "Saturday":
-                    db.Saturdays.Load();
-                    WeekGrid.ItemsSource = db.Saturdays.Local.ToBindingList(); break;
+                    LessonsList = userContext.Lessons
+                     .Where(c => c.When == "Суббота")
+                     .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
 
                 default:
-                    break;
+                    LessonsList = userContext.Lessons
+                    .Where(c => c.When == "Воскресенье")
+                    .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
+            
             }
+
 
 
         }
@@ -66,31 +101,51 @@ namespace SwitchingViewsMVVM.Views
             string Day;
 
             Day = WeekComboBox.SelectedItem.ToString();
+            WeekContext userContext = new WeekContext();
+            db.Lessons.Load();
+            IQueryable<Lesson> LessonsList;
 
             switch (Day)
             {
                 case "Понедельник":
-                    db.Mondays.Load();
-                    WeekGrid.ItemsSource = db.Mondays.Local.ToBindingList(); break;
+                    LessonsList= userContext.Lessons
+                        .Where(c => c.When == "Понедельник")
+                        .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
+
                 case "Вторник":
-                    db.Tuesdays.Load();
-                    WeekGrid.ItemsSource = db.Tuesdays.Local.ToBindingList(); break;
+                    LessonsList = userContext.Lessons
+                        .Where(c => c.When == "Вторник")
+                        .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
 
                 case "Среда":
-                    db.Wednesdays.Load();
-                    WeekGrid.ItemsSource = db.Wednesdays.Local.ToBindingList(); break;
+                    LessonsList = userContext.Lessons
+                         .Where(c => c.When == "Среда")
+                         .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
+
                 case "Четверг":
-                    db.Thursdays.Load();
-                    WeekGrid.ItemsSource = db.Thursdays.Local.ToBindingList(); break;
+                    LessonsList = userContext.Lessons
+                           .Where(c => c.When == "Четверг")
+                          .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
                 case "Пятница":
-                    db.Fridays.Load();
-                    WeekGrid.ItemsSource = db.Fridays.Local.ToBindingList(); break;
+                    LessonsList = userContext.Lessons
+                        .Where(c => c.When == "Пятница")
+                          .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
                 case "Суббота":
-                    db.Saturdays.Load();
-                    WeekGrid.ItemsSource = db.Saturdays.Local.ToBindingList(); break;
+                    LessonsList = userContext.Lessons
+                      .Where(c => c.When == "Суббота")
+                      .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
 
                 default:
-                    break;
+                    LessonsList = userContext.Lessons
+                    .Where(c => c.When == "Воскресенье")
+                    .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
             }
         }
     }
