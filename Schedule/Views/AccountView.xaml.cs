@@ -1,5 +1,7 @@
-﻿using System;
+﻿using SwitchingViewsMVVM.Week;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +22,53 @@ namespace SwitchingViewsMVVM.Views
     /// </summary>
     public partial class AccountView : UserControl
     {
+        WeekContext db;
         public AccountView()
         {
             InitializeComponent();
+
+            db = new WeekContext();
+            db.Professor.Load();
+            PGrid.ItemsSource = db.Professor.Local.ToBindingList();
+
+
+
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            WeekContext userContext = new WeekContext();
+            db.Professor.Load();
+            IQueryable<Professor> LessonsList;
+            LessonsList = userContext.Professor
+              .Where(c => c.Lesson == FindBox.Text.ToString())
+              .Select(c => c);
+                PGrid.ItemsSource = LessonsList.ToList();
+    
+        }
+
+        private void PositionButton_Click(object sender, RoutedEventArgs e)
+        {
+            WeekContext userContext = new WeekContext();
+            db.Professor.Load();
+            IQueryable<Professor> LessonsList;
+            LessonsList = userContext.Professor
+              .Where(c => c.Position == FindBox.Text.ToString())
+              .Select(c => c);
+            PGrid.ItemsSource = LessonsList.ToList();
+        }
+
+        private void NameButton_Click(object sender, RoutedEventArgs e)
+        {
+            WeekContext userContext = new WeekContext();
+            db.Professor.Load();
+            IQueryable<Professor> LessonsList;
+            LessonsList = userContext.Professor
+              .Where(c => c.Name == FindBox.Text.ToString())
+              .Select(c => c);
+            PGrid.ItemsSource = LessonsList.ToList();
+
         }
     }
 }

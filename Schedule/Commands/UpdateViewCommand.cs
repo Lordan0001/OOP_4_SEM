@@ -38,6 +38,10 @@ namespace SwitchingViewsMVVM.Commands
             {
                 viewModel.SelectedViewModel = new EnterViewModel();
             }
+            else if (parameter.ToString() == "Profile")
+            {
+                viewModel.SelectedViewModel = new ProfileViewModel();
+            }
         }
     }
 }

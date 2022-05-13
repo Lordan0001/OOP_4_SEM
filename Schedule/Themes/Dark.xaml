@@ -15,10 +15,28 @@
         <Setter Property="VerticalAlignment" Value="Center"/>
     </Style>
 
+
+    <Style x:Key="MainLabel" TargetType="Label">
+
+        <Setter Property="Foreground" Value="#FFE5DEDE"/>
+        <Setter Property="Background" Value="Black"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="FontFamily" Value="Georgia, serif"/>
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+
+
+
     <Style x:Key="EnterBox" TargetType="TextBox">
         <Setter Property="Width" Value="180"/>
         <Setter Property="Height" Value="40"/>
         <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="ImageStyle" TargetType="Image">
+        <Setter x:Name="First" Property="Source" Value="/Resource/We_are_chaos.jpeg"/>
+        <Setter x:Name="Second" Property="Source" Value="/Resource/The_Pale_Emperor.jpeg"/>
     </Style>
 
 

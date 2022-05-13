@@ -98,3 +98,5 @@ D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\Schedule\bi
 D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\Schedule\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\Schedule\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\Schedule\obj\Debug\net6.0-windows\SwitchingViewsMVVM.csproj.CopyComplete
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\Schedule\obj\Debug\net6.0-windows\Views\ProfileView.g.cs
+D:\University\БГТУ\2 Курс\4. Семместр\ООП\All Lab\Schedule\obj\Debug\net6.0-windows\Views\ProfileView.baml

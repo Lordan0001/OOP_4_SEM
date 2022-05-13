@@ -5,8 +5,36 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:SwitchingViewsMVVM.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800" Background="White">
+             d:DesignHeight="450" d:DesignWidth="800" Background="WhiteSmoke">
     <Grid>
-        <Label Content="Account" FontSize="40" HorizontalAlignment="Center"></Label>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="170"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Style="{DynamicResource MainText}" Grid.Row="0" Text="Преподаватели" />
+
+        <DataGrid x:Name="PGrid" Grid.Row="1"  AutoGenerateColumns="False" >
+            <DataGrid.Columns>
+       
+                <DataGridTextColumn Binding="{Binding Name}" Header="Name" Width="250"/>
+                <DataGridTextColumn Binding="{Binding Position}" Header="Type" Width="150"/>
+                <DataGridTextColumn Binding="{Binding Lesson}" Header="Number" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Grid.Row="2" Content="Поиск" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10" FontSize="20"/>
+        <Label Grid.Row="2" Margin="20 20 0 0" Content="Введите критерий поиска" VerticalAlignment="Top" HorizontalAlignment="Left"  FontSize="15" FontWeight="Normal" FontFamily="Yu Gothic UI Light"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" Margin="20">
+            <TextBox x:Name="FindBox" Width="200" Height="25"  VerticalContentAlignment="Center" Margin="0 0 70 0"/>
+            <Button x:Name="LessonButton" Margin="10" Width="100" Height="50" Content="По предмету" Click="Button_Click"  />
+            <Button x:Name="PositionButton" Margin="10" Width="100" Height="50" Content="По должности" Click="PositionButton_Click"/>
+            <Button x:Name="NameButton" Margin="10" Width="100" Height="50" Content="По имени" Click="NameButton_Click"/>
+
+
+        </StackPanel>
+
+
+
     </Grid>
 </UserControl>

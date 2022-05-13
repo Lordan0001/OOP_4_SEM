@@ -14,11 +14,16 @@
         </Grid.RowDefinitions>
 
         <ContentControl Content="{Binding SelectedViewModel}"/>
+        
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label x:Name="Label1"  Content="Вам приветствует помощник расписания занятий"  FontSize="20"/>
+            <Label x:Name="Label2" Content="Перейдите к расписанию, преподавателям или осмотрите профиль"  FontSize="15" Margin="12" />
+        </StackPanel>
 
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button Margin="10" Width="200" Content="Home" Command="{Binding UpdateViewCommand}" CommandParameter="Home" />
-            <Button Margin="10" Width="200" Content="Account" Command="{Binding UpdateViewCommand}" CommandParameter="Account"/>
-            <Button x:Name="EnterButton"  Margin="10" Width="200" Content="Enter" Command="{Binding UpdateViewCommand}" CommandParameter="Enter"/>
+            <Button Margin="10" Width="200" Content="Расписание" Command="{Binding UpdateViewCommand}" CommandParameter="Home" Click="Button_Click" />
+            <Button Margin="10" Width="200" Content="Преподаватели" Command="{Binding UpdateViewCommand}" CommandParameter="Account" Click="Button_Click_1"/>
+            <Button Margin="10" Width="200" Content="Профиль" Command="{Binding UpdateViewCommand}" CommandParameter="Profile" Click="Button_Click_1"/>
 
         </StackPanel>
     </Grid>

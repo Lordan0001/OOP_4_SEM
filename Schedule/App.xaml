@@ -6,7 +6,7 @@
              xmlns:views="clr-namespace:SwitchingViewsMVVM.Views"
              xmlns:viewmodels="clr-namespace:SwitchingViewsMVVM.ViewModels"
              
-             StartupUri="MainWindow.xaml">
+             StartupUri="EnterWindow.xaml">
     <Application.Resources>
 
         <ResourceDictionary>
@@ -24,6 +24,11 @@
             <DataTemplate DataType="{x:Type viewmodels:EnterViewModel}">
                 <views:EnterView/>
             </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewmodels:ProfileViewModel}">
+                <views:ProfileView/>
+            </DataTemplate>
+
             <ControlTemplate x:Key="errorTemplate">
                 <Border BorderBrush="OrangeRed" BorderThickness="2">
                     <Grid>
