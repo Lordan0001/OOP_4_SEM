@@ -32,16 +32,12 @@ namespace SwitchingViewsMVVM
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Label1.Content = "";
-            Label2.Content = "";
-        }
+
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Label1.Content = "";
-            Label2.Content = "";
+            Label1.Visibility = Visibility.Hidden;
+            Label2.Visibility = Visibility.Hidden;
         }
     }
 }

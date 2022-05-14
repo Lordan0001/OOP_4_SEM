@@ -29,7 +29,8 @@ namespace SwitchingViewsMVVM.Views
             WeekComboBox.ItemsSource = Days;
             WeekComboBox.SelectedItem = "Понедельник";
 
-
+            List<string> FindVlaue = new List<string> { "По имени", "По типу", "По номеру" };
+            ComboFind.ItemsSource = FindVlaue; ComboFind.SelectedItem = "По имени";
 
             WeekContext userContext = new WeekContext();
 
@@ -146,6 +147,36 @@ namespace SwitchingViewsMVVM.Views
                     .Where(c => c.When == "Воскресенье")
                     .Select(c => c);
                     WeekGrid.ItemsSource = LessonsList.ToList(); break;
+            }
+        }
+
+        private void NameButton_Click(object sender, RoutedEventArgs e)
+        {
+            WeekContext userContext = new WeekContext();
+
+
+           // db.Lessons.Load();
+            IQueryable<Lesson> LessonsList;
+            string Selected = ComboFind.SelectedItem.ToString();
+            switch (Selected)
+            {
+                case "По имени":
+                    LessonsList = userContext.Lessons
+                        .Where(c => c.Name == FindBox.Text)
+                        .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
+                case "По типу":
+                    LessonsList = userContext.Lessons
+                        .Where(c => c.Type == FindBox.Text)
+                        .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
+                case "По номеру":
+                    LessonsList = userContext.Lessons
+                        .Where(c => c.Number == FindBox.Text)
+                        .Select(c => c);
+                    WeekGrid.ItemsSource = LessonsList.ToList(); break;
+                default:
+                    break;
             }
         }
     }

@@ -6,7 +6,7 @@
              xmlns:views="clr-namespace:SwitchingViewsMVVM.Views"
              xmlns:viewmodels="clr-namespace:SwitchingViewsMVVM.ViewModels"
              
-             StartupUri="EnterWindow.xaml">
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
 
         <ResourceDictionary>

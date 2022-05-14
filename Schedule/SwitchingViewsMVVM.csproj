@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resource\calendar1.ico" />
+    <None Remove="Resource\calendar2.ico" />
     <None Remove="Resource\Eat_Me,_Drink_Me_%282007%29.jpg" />
     <None Remove="Resource\Heaven_Upside_Down.png" />
     <None Remove="Resource\The_High_End_of_Low.jpg" />
@@ -20,6 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resource\calendar1.ico" />
+    <Resource Include="Resource\calendar2.ico" />
     <Resource Include="Resource\Eat_Me,_Drink_Me_(2007).jpg" />
     <Resource Include="Resource\Heaven_Upside_Down.png" />
     <Resource Include="Resource\The_High_End_of_Low.jpg" />

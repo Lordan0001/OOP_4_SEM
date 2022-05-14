@@ -1,4 +1,4 @@
-﻿<Window Style="{DynamicResource Win}" x:Class="SwitchingViewsMVVM.MainWindow"
+﻿<Window Style="{DynamicResource Win}"  Icon="/Resource/calendar1.ico" x:Class="SwitchingViewsMVVM.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:SwitchingViewsMVVM"
         xmlns:themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Luna"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Schedule" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -21,7 +21,7 @@
         </StackPanel>
 
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button Margin="10" Width="200" Content="Расписание" Command="{Binding UpdateViewCommand}" CommandParameter="Home" Click="Button_Click" />
+            <Button Margin="10" Width="200" Content="Расписание" Command="{Binding UpdateViewCommand}" CommandParameter="Home" Click="Button_Click_1" />
             <Button Margin="10" Width="200" Content="Преподаватели" Command="{Binding UpdateViewCommand}" CommandParameter="Account" Click="Button_Click_1"/>
             <Button Margin="10" Width="200" Content="Профиль" Command="{Binding UpdateViewCommand}" CommandParameter="Profile" Click="Button_Click_1"/>
 
