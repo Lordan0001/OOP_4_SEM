@@ -9,10 +9,10 @@ namespace SwitchingViewsMVVM.Views
 {
     public class VallidateLogin : ObservableObject
     {
-        private string _username;
-        private int _password;
+        //private string _username;
+        private long _password;
 
-        [Required(ErrorMessage = "Заполните поле")]
+/*        [Required(ErrorMessage = "Заполните поле")]
         [StringLength(50, MinimumLength = 5, ErrorMessage = "Миниму 5 символов")]
         public string Username
         {
@@ -22,10 +22,10 @@ namespace SwitchingViewsMVVM.Views
                 ValidateProperty(value, "Username");
                 OnPropertyChanged(ref _username, value);
             }
-        }
-        [Required(ErrorMessage = "Заполните поле")]
-        [Range(1, 9999, ErrorMessage = "****")]
-        public int Password
+        }*/
+      //  [Required(ErrorMessage = "Заполните поле")]
+        [Range(1, 15000000, ErrorMessage = "Введены лишние цифры")]
+        public long Password
         {
             get { return _password; }
             set

@@ -12,6 +12,7 @@
     <None Remove="Resource\calendar2.ico" />
     <None Remove="Resource\Eat_Me,_Drink_Me_%282007%29.jpg" />
     <None Remove="Resource\Heaven_Upside_Down.png" />
+    <None Remove="Resource\Man.png" />
     <None Remove="Resource\The_High_End_of_Low.jpg" />
     <None Remove="Resource\The_Pale_Emperor.jpeg" />
     <None Remove="Resource\We_are_chaos.jpeg" />
@@ -26,6 +27,7 @@
     <Resource Include="Resource\calendar2.ico" />
     <Resource Include="Resource\Eat_Me,_Drink_Me_(2007).jpg" />
     <Resource Include="Resource\Heaven_Upside_Down.png" />
+    <Resource Include="Resource\Man.png" />
     <Resource Include="Resource\The_High_End_of_Low.jpg" />
     <Resource Include="Resource\The_Pale_Emperor.jpeg" />
     <Resource Include="Resource\We_are_chaos.jpeg" />

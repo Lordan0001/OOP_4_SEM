@@ -32,20 +32,20 @@ namespace SwitchingViewsMVVM.Views
            
 
 
-            switch (EnterView.StudentNumber)
+    /*        switch (EnterView.StudentNumber)
             {
                 case 1: FillStudentProfile1(); break;
-                    case 2: FillStudentProfile2(); break;
+                
                 default:
                     break;
-            }
+            }*/
 
-
+            FillStudentProfile(EnterView.StudentNumber);
 
         }
 
 
-        public void FillStudentProfile1()
+        public void FillStudentProfile(int a)
         {
             db = new WeekContext();
             db.Students.Load();
@@ -56,7 +56,7 @@ namespace SwitchingViewsMVVM.Views
             }
 
             Student student1 = new Student();
-            student1 = studentList[0];
+            student1 = studentList[a];
 
             SurnameLabel.Content = student1.Surname;
             NameLabel.Content = student1.Name;
@@ -66,25 +66,7 @@ namespace SwitchingViewsMVVM.Views
         }
 
 
-        public void FillStudentProfile2()
-        {
-            db = new WeekContext();
-            db.Students.Load();
-            List<Student> studentList = new List<Student>();
-            foreach (var item in db.Students)
-            {
-                studentList.Add(item);
-            }
 
-            Student student1 = new Student();
-            student1 = studentList[1];
-
-            SurnameLabel.Content = student1.Surname;
-            NameLabel.Content = student1.Name;
-            PatronymicLabel.Content = student1.Patronymic;
-            GroupLabel.Content = student1.Group;
-            CourseLabel.Content = student1.Course;
-        }
 
 
 

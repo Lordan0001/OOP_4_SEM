@@ -23,7 +23,7 @@ namespace SwitchingViewsMVVM
         }
       public static void CloseEnter()
         {
-            
+            //закрыть текущее окно
             foreach (Window w in App.Current.Windows) {
                 
                 w.Close();
