@@ -14,16 +14,24 @@ using System.Windows.Shapes;
 
 namespace SwitchingViewsMVVM
 {
-    /// <summary>
-    /// Логика взаимодействия для EnterWindow.xaml
-    /// </summary>
+
     public partial class EnterWindow : Window
     {
         public EnterWindow()
         {
             InitializeComponent();
         }
-      
+      public static void CloseEnter()
+        {
+            
+            foreach (Window w in App.Current.Windows) {
+                
+                w.Close();
+                break;
+            }
+              
+               
+        }
 
 
     }

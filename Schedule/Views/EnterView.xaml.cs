@@ -27,7 +27,7 @@ namespace SwitchingViewsMVVM.Views
 
 
         }
-
+        public static int StudentNumber = 0;
 
 
 
@@ -38,8 +38,16 @@ namespace SwitchingViewsMVVM.Views
 
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
-            
-                
+                EnterWindow.CloseEnter();
+                StudentNumber = 1;
+
+            }
+            else if (log.Text == "Sdmin" && pass.Text == "1111")
+            {
+                MainWindow mainWindow = new MainWindow();
+                mainWindow.Show();
+                EnterWindow.CloseEnter();
+                StudentNumber = 2;
             }
             else
             {

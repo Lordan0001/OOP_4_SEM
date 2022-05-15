@@ -38,12 +38,33 @@
                 <Image Source="/Resource/The_High_End_of_Low.jpg" Width="150" Height="150" />
             </ComboBoxItem>
         </ComboBox>
-        <StackPanel Grid.Row="2" HorizontalAlignment="Stretch" Grid.Column="1" >
-            <Label Style="{DynamicResource MainLabel}" Content="Фамилия: Белицкий" />
-            <Label Style="{DynamicResource MainLabel}" Content="Имя: Владислав"/>
-            <Label Style="{DynamicResource MainLabel}" Content="Отчество: Дмитриевич"/>
-            <Label Style="{DynamicResource MainLabel}" Content="Группа: 5"/>
-            <Label Style="{DynamicResource MainLabel}" Content="Курс: 2"/>
+        
+        <!--StackPanel-->
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" Grid.Column="1" >
+            <StackPanel Grid.Row="2" Orientation="Horizontal"  Grid.Column="1" >
+                <Label Style="{DynamicResource MainLabel}" Content="Фамилия: " />
+                <Label x:Name="SurnameLabel" Style="{DynamicResource MainLabel}" Content="*******"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Orientation="Horizontal" Grid.Column="1" >
+                <Label Style="{DynamicResource MainLabel}" Content="Имя: " />
+                <Label x:Name="NameLabel" Style="{DynamicResource MainLabel}" Content="*******" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Orientation="Horizontal"  Grid.Column="1" >
+                <Label Style="{DynamicResource MainLabel}" Content="Отчество: " />
+                <Label x:Name="PatronymicLabel" Style="{DynamicResource MainLabel}" Content="*******" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Orientation="Horizontal"  Grid.Column="1" >
+                <Label Style="{DynamicResource MainLabel}" Content="Группа: " />
+                <Label x:Name="GroupLabel" Style="{DynamicResource MainLabel}" Content="*******" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Orientation="Horizontal"  Grid.Column="1" >
+                <Label Style="{DynamicResource MainLabel}" Content="Курс: " />
+                <Label x:Name="CourseLabel" Style="{DynamicResource MainLabel}" Content="*******" />
+            </StackPanel>
         </StackPanel>
         
         

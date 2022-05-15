@@ -16,7 +16,7 @@
         <ContentControl Content="{Binding SelectedViewModel}"/>
         
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Label x:Name="Label1"  Content="Вам приветствует помощник расписания занятий"  FontSize="20"/>
+            <Label x:Name="Label1"  Content="Вас приветствует помощник расписания занятий"  FontSize="20"/>
             <Label x:Name="Label2" Content="Перейдите к расписанию, преподавателям или осмотрите профиль"  FontSize="15" Margin="12" />
         </StackPanel>
 

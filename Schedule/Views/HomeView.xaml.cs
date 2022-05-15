@@ -8,9 +8,7 @@ using System.Windows.Controls;
 
 namespace SwitchingViewsMVVM.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для HomeView.xaml
-    /// </summary>
+
     public partial class HomeView : UserControl
     {
         WeekContext db;
