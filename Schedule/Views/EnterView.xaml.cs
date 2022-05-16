@@ -1,24 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using SwitchingViewsMVVM;
 
 namespace SwitchingViewsMVVM.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для EnterView.xaml
-    /// </summary>
+
     public partial class EnterView : UserControl
     {
         public EnterView()
@@ -37,10 +23,10 @@ namespace SwitchingViewsMVVM.Views
             MainWindow mainWindow = new MainWindow();
             switch (pass.Text)
             {
-                case "14005011":                 
+                case "14005011":
                     mainWindow.Show();
                     EnterWindow.CloseEnter();
-                    StudentNumber = 0;break;
+                    StudentNumber = 0; break;
 
                 case "14005012":
                     mainWindow.Show();
@@ -87,8 +73,14 @@ namespace SwitchingViewsMVVM.Views
                     break;
             }
 
-
-
         }
+
+
+        private void TextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+                EnterButton.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+        }
+
     }
 }

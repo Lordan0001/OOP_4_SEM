@@ -5,6 +5,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace SwitchingViewsMVVM.Views
 {
@@ -92,6 +93,11 @@ namespace SwitchingViewsMVVM.Views
 
 
 
+        }
+        private void TextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+                NameButton.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
         }
 
         private void ShowButton_Click(object sender, RoutedEventArgs e)

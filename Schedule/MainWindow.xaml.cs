@@ -39,5 +39,10 @@ namespace SwitchingViewsMVVM
             Label1.Visibility = Visibility.Hidden;
             Label2.Visibility = Visibility.Hidden;
         }
+
+        private void InfoButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Developer: Bialitski V.D\nVersion: 1.0");
+        }
     }
 }

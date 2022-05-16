@@ -15,7 +15,7 @@
         </Grid.RowDefinitions>
 
         <ContentControl Content="{Binding SelectedViewModel}"/>
-        
+
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label x:Name="Label1"  Content="Вас приветствует помощник расписания занятий"  FontSize="20"/>
             <Label x:Name="Label2" Content="Перейдите к расписанию, преподавателям или осмотрите профиль"  FontSize="15" Margin="12" />
@@ -27,5 +27,8 @@
             <Button Margin="10" Width="200" Content="Профиль" Command="{Binding UpdateViewCommand}" CommandParameter="Profile" Click="Button_Click_1"/>
 
         </StackPanel>
+
+        <Button x:Name="InfoButton" Width="25" Height="24" Content="?" Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,13,0,0" FontSize="13" Click="InfoButton_Click"/>
+
     </Grid>
 </Window>
