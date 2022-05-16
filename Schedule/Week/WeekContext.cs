@@ -19,5 +19,7 @@ namespace SwitchingViewsMVVM.Week
         public DbSet<Professor> Professor { get; set; }
         public DbSet<Student> Students { get; set; }
 
+        public DbSet<StudentTicket> StudentsTickets { get; set; }
+
     }
 }

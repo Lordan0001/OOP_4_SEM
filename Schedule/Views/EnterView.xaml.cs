@@ -1,4 +1,8 @@
-﻿using System.Windows;
+﻿using SwitchingViewsMVVM.Week;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
@@ -7,6 +11,7 @@ namespace SwitchingViewsMVVM.Views
 
     public partial class EnterView : UserControl
     {
+        WeekContext db;
         public EnterView()
         {
             InitializeComponent();
@@ -19,59 +24,41 @@ namespace SwitchingViewsMVVM.Views
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
             MainWindow mainWindow = new MainWindow();
-            switch (pass.Text)
+            int i = 0;
+            db = new WeekContext();
+            db.StudentsTickets.Load();
+            List<string> PassList = new List<string>();
+            foreach (var item in db.StudentsTickets)
             {
-                case "14005011":
-                    mainWindow.Show();
-                    EnterWindow.CloseEnter();
-                    StudentNumber = 0; break;
-
-                case "14005012":
-                    mainWindow.Show();
-                    EnterWindow.CloseEnter();
-                    StudentNumber = 1; break;
-
-                case "14005013":
-                    mainWindow.Show();
-                    EnterWindow.CloseEnter();
-                    StudentNumber = 2; break;
-
-                case "14005014":
-                    mainWindow.Show();
-                    EnterWindow.CloseEnter();
-                    StudentNumber = 3; break;
-
-                case "14005015":
-                    mainWindow.Show();
-                    EnterWindow.CloseEnter();
-                    StudentNumber = 4; break;
-
-                case "14005016":
-                    mainWindow.Show();
-                    EnterWindow.CloseEnter();
-                    StudentNumber = 5; break;
-
-                case "14005017":
-                    mainWindow.Show();
-                    EnterWindow.CloseEnter();
-                    StudentNumber = 6; break;
-
-                case "14005018":
-                    mainWindow.Show();
-                    EnterWindow.CloseEnter();
-                    StudentNumber = 7; break;
-
-                case "14005019":
-                    mainWindow.Show();
-                    EnterWindow.CloseEnter();
-                    StudentNumber = 8; break;
-
-                default:
-                    MessageBox.Show("Проверьте введённый номер студенческого билета");
-                    break;
+                PassList.Add(item.Ticket);
             }
+
+
+            foreach (var item in PassList)
+            {
+                i++;
+                if (pass.Text == item)
+                {
+                    mainWindow.Show();
+                    EnterWindow.CloseEnter();
+                    string Temp = pass.Text;
+                    char last = Temp.Last();
+                    int ToStudentNumber = last - '0';
+                    --ToStudentNumber;
+
+                    StudentNumber = ToStudentNumber; break;
+                }
+                else if (i == PassList.Count)
+                {
+                    MessageBox.Show("Проверьте введённый номер студенческого билета");
+                }
+   
+
+            }
+
+
+
 
         }
 
