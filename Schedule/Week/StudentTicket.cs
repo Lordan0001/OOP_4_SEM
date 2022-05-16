@@ -10,5 +10,7 @@ namespace SwitchingViewsMVVM.Week
     {
         public int Id { get; set; }
         public string Ticket { get; set; }
+
+        public string Surname { get; set; }
     }
 }

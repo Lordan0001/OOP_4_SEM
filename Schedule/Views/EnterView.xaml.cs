@@ -18,9 +18,9 @@ namespace SwitchingViewsMVVM.Views
 
 
         }
-        public static int StudentNumber = 0;
 
 
+        public static string StudentSurname = "";
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
@@ -28,26 +28,21 @@ namespace SwitchingViewsMVVM.Views
             int i = 0;
             db = new WeekContext();
             db.StudentsTickets.Load();
-            List<string> PassList = new List<string>();
+            List<StudentTicket> PassList = new List<StudentTicket>();
             foreach (var item in db.StudentsTickets)
             {
-                PassList.Add(item.Ticket);
+                PassList.Add(item);
             }
 
 
             foreach (var item in PassList)
             {
                 i++;
-                if (pass.Text == item)
+                if (pass.Text == item.Ticket)
                 {
+                    StudentSurname = item.Surname;
                     mainWindow.Show();
-                    EnterWindow.CloseEnter();
-                    string Temp = pass.Text;
-                    char last = Temp.Last();
-                    int ToStudentNumber = last - '0';
-                    --ToStudentNumber;
-
-                    StudentNumber = ToStudentNumber; break;
+                    EnterWindow.CloseEnter(); break;
                 }
                 else if (i == PassList.Count)
                 {

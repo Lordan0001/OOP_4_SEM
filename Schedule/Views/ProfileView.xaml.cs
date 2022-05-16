@@ -1,19 +1,8 @@
 ﻿using SwitchingViewsMVVM.Week;
-using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 
 namespace SwitchingViewsMVVM.Views
@@ -29,23 +18,12 @@ namespace SwitchingViewsMVVM.Views
         {
             InitializeComponent();
 
-           
-
-
-    /*        switch (EnterView.StudentNumber)
-            {
-                case 1: FillStudentProfile1(); break;
-                
-                default:
-                    break;
-            }*/
-
-            FillStudentProfile(EnterView.StudentNumber);
+            FillStudentProfile();
 
         }
 
 
-        public void FillStudentProfile(int a)
+        public void FillStudentProfile()
         {
             db = new WeekContext();
             db.Students.Load();
@@ -55,8 +33,22 @@ namespace SwitchingViewsMVVM.Views
                 studentList.Add(item);
             }
 
+
+
+            int index = 999;
+
+            foreach (var item in studentList)
+            {
+                if (item.Surname == EnterView.StudentSurname)
+                {
+                    index = studentList.IndexOf(item);
+                }
+
+            }
+
+
             Student student1 = new Student();
-            student1 = studentList[a];
+            student1 = studentList[index];
 
             SurnameLabel.Content = student1.Surname;
             NameLabel.Content = student1.Name;
