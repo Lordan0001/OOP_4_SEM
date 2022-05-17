@@ -47,7 +47,7 @@ namespace SwitchingViewsMVVM.Views
                     WeekGrid.ItemsSource = LessonsList.ToList(); break;
 
 
-                case "Tuesdays":
+                case "Tuesday":
 
                     LessonsList = userContext.Lessons
                       .Where(c => c.When == "Вторник")
