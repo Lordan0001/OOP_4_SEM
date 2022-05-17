@@ -14,14 +14,14 @@
             <RowDefinition Height="70"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Style="{DynamicResource MainText}" Grid.Row="0" Text="Рассписание" />
+        <TextBlock Style="{DynamicResource MainText}" Grid.Row="0" Text="Расписание" />
         
         <DataGrid x:Name="WeekGrid" Grid.Row="1"  AutoGenerateColumns="False" >
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Time}" Header="Time" Width="100"/>
-                <DataGridTextColumn Binding="{Binding Name}" Header="Name" Width="200"/>
-                <DataGridTextColumn Binding="{Binding Type}" Header="Type" Width="100"/>
-                <DataGridTextColumn Binding="{Binding Number}" Header="Number" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Time}" Header="Время" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Name}" Header="Название" Width="200"/>
+                <DataGridTextColumn Binding="{Binding Type}" Header="Тип" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Number}" Header="Аудитория" Width="150"/>
                 <DataGridTextColumn Binding="{Binding When}" Header="День" Width="100"/>
             </DataGrid.Columns>
         </DataGrid>

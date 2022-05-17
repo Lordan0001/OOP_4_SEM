@@ -66,8 +66,9 @@
                 <Label x:Name="CourseLabel" Style="{DynamicResource MainLabel}" Content="*******" />
             </StackPanel>
         </StackPanel>
-        
-        
+
+
+
 
 
     </Grid>

@@ -17,10 +17,9 @@
 
         <DataGrid x:Name="PGrid" Grid.Row="1"  AutoGenerateColumns="False" >
             <DataGrid.Columns>
-       
-                <DataGridTextColumn Binding="{Binding Name}" Header="Name" Width="250"/>
-                <DataGridTextColumn Binding="{Binding Position}" Header="Type" Width="150"/>
-                <DataGridTextColumn Binding="{Binding Lesson}" Header="Number" Width="150"/>
+                <DataGridTextColumn Binding="{Binding Name}" Header="Имя" Width="250"/>
+                <DataGridTextColumn Binding="{Binding Position}" Header="Должность" Width="150"/>
+                <DataGridTextColumn Binding="{Binding Lesson}" Header="Предмет" Width="150"/>
             </DataGrid.Columns>
         </DataGrid>
         <Label Grid.Row="2" Content="Поиск" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10" FontSize="20"/>
@@ -30,11 +29,6 @@
             <Button x:Name="LessonButton" Margin="10" Width="100" Height="50" Content="По предмету" Click="Button_Click"  />
             <Button x:Name="PositionButton" Margin="10" Width="100" Height="50" Content="По должности" Click="PositionButton_Click"/>
             <Button x:Name="NameButton" Margin="10" Width="100" Height="50" Content="По имени" Click="NameButton_Click"/>
-
-
         </StackPanel>
-
-
-
     </Grid>
 </UserControl>

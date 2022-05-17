@@ -7,9 +7,7 @@ using System.Windows.Controls;
 
 namespace SwitchingViewsMVVM.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для ProfileView.xaml
-    /// </summary>
+
     public partial class ProfileView : UserControl
     {
         WeekContext db;
