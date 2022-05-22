@@ -17,7 +17,7 @@
 
         <DataGrid x:Name="PGrid" Grid.Row="1"  AutoGenerateColumns="False" >
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Name}" Header="Имя" Width="250"/>
+                <DataGridTextColumn Binding="{Binding Name}" Header="ФИО" Width="250"/>
                 <DataGridTextColumn Binding="{Binding Position}" Header="Должность" Width="150"/>
                 <DataGridTextColumn Binding="{Binding Lesson}" Header="Предмет" Width="150"/>
             </DataGrid.Columns>

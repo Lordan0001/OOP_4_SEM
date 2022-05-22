@@ -31,9 +31,6 @@ namespace SwitchingViewsMVVM.Views
             db.Professor.Load();
             PGrid.ItemsSource = db.Professor.Local.ToBindingList();
 
-
-
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

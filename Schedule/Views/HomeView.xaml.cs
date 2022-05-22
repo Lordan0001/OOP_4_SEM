@@ -28,8 +28,8 @@ namespace SwitchingViewsMVVM.Views
             WeekComboBox.ItemsSource = Days;
             WeekComboBox.SelectedItem = "Понедельник";
 
-            List<string> FindVlaue = new List<string> { "По имени", "По типу", "По номеру" };
-            ComboFind.ItemsSource = FindVlaue; ComboFind.SelectedItem = "По имени";
+            List<string> FindVlaue = new List<string> { "По названию", "По типу", "По номеру" };
+            ComboFind.ItemsSource = FindVlaue; ComboFind.SelectedItem = "По названию";
 
             WeekContext userContext = new WeekContext();
 
@@ -164,7 +164,7 @@ namespace SwitchingViewsMVVM.Views
             string Selected = ComboFind.SelectedItem.ToString();
             switch (Selected)
             {
-                case "По имени":
+                case "По названию":
                     LessonsList = userContext.Lessons
                         .Where(c => c.Name == FindBox.Text)
                         .Select(c => c);

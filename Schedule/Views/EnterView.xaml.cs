@@ -39,7 +39,7 @@ namespace SwitchingViewsMVVM.Views
             {
                 i++;
                 if (pass.Text == item.Ticket)
-                {
+                {   
                     StudentSurname = item.Surname;
                     mainWindow.Show();
                     EnterWindow.CloseEnter(); break;
@@ -51,9 +51,6 @@ namespace SwitchingViewsMVVM.Views
    
 
             }
-
-
-
 
         }
 

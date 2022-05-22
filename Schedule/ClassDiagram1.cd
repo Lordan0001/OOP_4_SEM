@@ -14,7 +14,7 @@
       <FileName>Week\Professor.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SwitchingViewsMVVM.Week.Student" Collapsed="true">
+  <Class Name="SwitchingViewsMVVM.Week.Student">
     <Position X="4.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAGAAAAAAAAAAAIAAAAQABAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -28,12 +28,15 @@
       <FileName>Week\StudentTicket.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SwitchingViewsMVVM.Week.WeekContext" Collapsed="true">
+  <Class Name="SwitchingViewsMVVM.Week.WeekContext">
     <Position X="8.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAAAAAAAAAACAAABAAAAAAAAQAAAAAAA=</HashCode>
       <FileName>Week\WeekContext.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Lessons" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="SwitchingViewsMVVM.ViewModels.AccountViewModel" Collapsed="true">
     <Position X="0.5" Y="1.75" Width="1.5" />
@@ -104,6 +107,16 @@
       <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ObservableObject.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Data.Entity.DbSet&lt;TEntity&gt;" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Data.Entity.DbContext" Collapsed="true">
+    <Position X="12.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
   <Font Name="Segoe UI" Size="9" />

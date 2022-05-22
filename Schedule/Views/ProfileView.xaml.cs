@@ -20,7 +20,6 @@ namespace SwitchingViewsMVVM.Views
 
         }
 
-
         public void FillStudentProfile()
         {
             db = new WeekContext();
@@ -30,9 +29,6 @@ namespace SwitchingViewsMVVM.Views
             {
                 studentList.Add(item);
             }
-
-
-
             int index = 999;
 
             foreach (var item in studentList)
@@ -44,7 +40,6 @@ namespace SwitchingViewsMVVM.Views
 
             }
 
-
             Student student1 = new Student();
             student1 = studentList[index];
 
@@ -54,11 +49,6 @@ namespace SwitchingViewsMVVM.Views
             GroupLabel.Content = student1.Group;
             CourseLabel.Content = student1.Course;
         }
-
-
-
-
-
 
     }
 }
